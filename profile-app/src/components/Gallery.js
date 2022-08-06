@@ -1,11 +1,11 @@
 // imports
+import React from 'react'
 
 
 // function
-const Header = () => {
+const Gallery = () => {
     return (
         <div>
-            
 
         </div>
     )
@@ -13,4 +13,4 @@ const Header = () => {
 
 
 // export
-export default Header
+export default Gallery
