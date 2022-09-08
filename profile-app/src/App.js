@@ -1,16 +1,13 @@
 // imports
 import './App.css';
 import './Navbar.css'
+import './Body.css'
 // import Header from './components/Header'
 import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import About from './components/About'
-import Project from './components/Project'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-import Gallery from './components/Gallery'
+import Body from './components/Body'
+// import Slideshow from './components/Slideshow'
 // import from react icons
-import { HiOutLineMenuAlt1, HiOutlineX } from 'react-icons/hi'
+// import { HiOutLineMenuAlt1, HiOutlineX } from 'react-icons/hi'
 
 
 
@@ -22,17 +19,8 @@ function App() {
       <div className="App">
         <Navbar />
         <br />
-        <Banner />
         <br />
-        <About />
-        <br />
-        <Project />
-        <br />
-        <Portfolio />
-        <br />
-        <Gallery />
-        <br />
-        <Contact />
+        <Body />
       </div>
     </div>
   );
