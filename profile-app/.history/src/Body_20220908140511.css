@@ -3,13 +3,7 @@
   grid-gap: 1rem;
 }
 
-.short-statement {
-  width: 400px;
-  position: absolute;
-  right: 300px;
-}
-
-/* .front-text {
+.front-text {
   display: block;
   padding-right: 10vw;
   width: 30vw;
@@ -20,11 +14,11 @@
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond,
     "Times New Roman", serif;
   font-size: 15px;
-} */
+}
 
-/* #text-1 {
+#text-1 {
   width: 40%;
-} */
+}
 
 #projects {
   background-size: cover;
@@ -44,8 +38,5 @@
 }
 
 #right-arrow {
-  color: white;
-  height: 2em;
-  width: 2em;
-  /* margin: 0 auto; */
+  color: white;  
 }

@@ -22,9 +22,8 @@ const Body = () => {
                 <p className='front-text' id='text-2'>I want to show you a few things.</p>
                 <br />
                 <p className='front-text' id='text-3'>C'mon!</p>
-                <div><FaArrowCircleRight id='right-arrow' onClick={() => movePageRight()} /></div>
+                <FaArrowCircleRight id='right-arrow' onClick={() => movePageRight()} />
             </div>
-
             <div id='container'>
                 {/* <div id="projects" className="subcontainers">PROJECTS</div> */}
                 {/* <div id='photo' className='subcontainers'></div> */}

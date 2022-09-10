@@ -1,15 +1,10 @@
+
 #container {
   display: grid;
   grid-gap: 1rem;
 }
 
-.short-statement {
-  width: 400px;
-  position: absolute;
-  right: 300px;
-}
-
-/* .front-text {
+.front-text {
   display: block;
   padding-right: 10vw;
   width: 30vw;
@@ -20,11 +15,12 @@
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond,
     "Times New Roman", serif;
   font-size: 15px;
-} */
 
-/* #text-1 {
+}
+
+#text-1 {
   width: 40%;
-} */
+}
 
 #projects {
   background-size: cover;
@@ -32,7 +28,7 @@
 
 #photo {
   border: white 5px solid;
-  background-image: url("./main-pictures/manhattan-bridge.jpg");
+  background-image: url("../main-pictures/kayode-3.jpg");
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +41,5 @@
 
 #right-arrow {
   color: white;
-  height: 2em;
-  width: 2em;
-  /* margin: 0 auto; */
+  /* make this icon bigger and centered */
 }

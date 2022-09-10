@@ -23,6 +23,7 @@ const Body = () => {
                 <br />
                 <p className='front-text' id='text-3'>C'mon!</p>
                 <div><FaArrowCircleRight id='right-arrow' onClick={() => movePageRight()} /></div>
+                
             </div>
 
             <div id='container'>
