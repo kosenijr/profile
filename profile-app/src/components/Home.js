@@ -11,32 +11,19 @@ const log = console.log;
 // function
 const Home = () => {
     const navigate = useNavigate();
-    const [slideRight, setSlideRight] = useState(false);
-
-
-    let movePageRight = () => {
-        log('page moved right');
-        // set up page transition, via useState
-    }
-
 
     return (
-        <div id="home-main">
+        <div className='main-container' id="home-main">
+            <h1 className='title'>Welcome</h1>
             <div className="short-statement">
-                <p className='front-text' id='text-1'>Hi, my name is Kayode Oseni. I am a front-end developer and photographer.</p>
+                <p className='front-text' id='text-1'>My name is Kayode Oseni. I am a front-end developer and photographer.</p>
 
-                <p className='front-text' id='text-2'>I want to show you a few things.</p>
+                <p className='front-text' id='text-2'>I'd like to show you a few things.</p>
                 <br />
                 <p className='front-text' id='text-3'>C'mon!</p>
-                <div >
+                <div className='sub-container'>
                     <FaArrowCircleRight className='arrows' onClick={() => navigate('/about')} />
                 </div>
-            </div>
-
-            <div id='container'>
-                {/* <div id="projects" className="subcontainers">PROJECTS</div> */}
-                {/* <div id='photo' className='subcontainers'></div> */}
-                {/* <div id='gallery' className='subcontainers'>GALLERY</div> */}
             </div>
         </div>
     )

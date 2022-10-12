@@ -4,8 +4,8 @@
 // function
 const pageNotFound = () => {
     return (
-        <div>
-            <h1>PAGE NOT FOUND</h1>
+        <div className='main-container'>
+            <h1 className='no-title-page'>I'm Sorry ... Please Try Another Page!</h1>
         </div>
     )
 }

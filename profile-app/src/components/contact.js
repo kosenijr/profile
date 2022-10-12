@@ -8,10 +8,13 @@ import { useNavigate } from 'react-router-dom'
 const Contact = () => {
     const navigate = useNavigate();
     return (
-        <div>
-            <h1>Contact</h1>
-
-            <FaArrowCircleLeft className='arrows' onClick={() => navigate('/portfolio')} />
+        <div className='main-container'>
+            <div className='desc-sub-container'>
+                <h1 className='title'>Contact</h1>
+            </div>
+            <div className='arrows-sub-container'>
+                <FaArrowCircleLeft className='arrows' onClick={() => navigate('/portfolio')} />
+            </div>
         </div>
     )
 }

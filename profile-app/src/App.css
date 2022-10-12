@@ -39,6 +39,19 @@
   height: 33px;
 }
 
+.title {
+}
+
+.desc-sub-container {
+  color: white;
+  height: 40rem;
+  border: 3px solid line;
+}
+
+.arrows-sub-container {
+  margin-top: 20%;
+}
+
 .arrows {
   cursor: pointer;
   color: white;

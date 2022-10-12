@@ -7,9 +7,12 @@ import { useNavigate } from 'react-router-dom'
 const Portfolio = () => {
     const navigate = useNavigate();
     return (
-        <div>
-            <h1>Portfolio</h1>
-            <FaArrowCircleLeft className='arrows' onClick={() => navigate('/about')} /><FaArrowCircleRight className='arrows' onClick={() => navigate('/contact')} />
+        <div className='main-container'>
+            <h1 className='title'>Portfolio</h1>
+            <div className='sub-container'>
+                <FaArrowCircleLeft className='arrows' onClick={() => navigate('/about')} /><FaArrowCircleRight className='arrows' onClick={() => navigate('/contact')} />
+
+            </div>
         </div>
     )
 }
