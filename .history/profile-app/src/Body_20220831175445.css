@@ -1,0 +1,81 @@
+#body-main {
+}
+
+#container {
+  display: grid;
+  /* margin: auto; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: 1fr; */
+  grid-gap: 1rem;
+}
+
+.front-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 5vh;
+  padding-top: 2.5%;
+  /* add some color that is pertinent to the steel and blue background */
+  color: white;
+  /* background-color: gray; */
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond,
+    "Times New Roman", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: none;
+}
+
+
+
+.subcontainers {
+  /* margin: auto;
+  height: 40vh;
+  width: 30vw;
+  box-sizing: border-box;
+  border: 10px;
+  padding: 5px;
+  color: white;
+  background-color: gray;
+  margin: auto;
+  border: silver 1px solid;
+  top: 30%; */
+}
+
+#projects {
+  /* border: green 2px solid; */
+  /* background-image: url("../public/main\ pictures/nyc background.jpg"); */
+  background-size: cover;
+}
+
+#photo {
+  border: white 5px solid;
+  background-image: url("../public/main\ pictures/kayode-3.jpg");
+  /* background-size: 100%; */
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#gallery {
+  /* border: green 2px solid; */
+  /* background-image: url("../public/main\ pictures/the-towers.jpg"); */
+  background-size: cover;
+}
+
+/* #profile-pic { */
+/* background-image: url("../public/main\ pictures/kayode.jpg"); */
+/* background-size: 75%; */
+/* max-height: 100%; */
+/* width: 100%; */
+/* margin: auto; */
+/* opacity: 0.3; */
+/* border-radius: 50%; */
+/* background-repeat: no-repeat; */
+/* object-fit: cover; */
+/* } */
+
+/* #profile-pic:hover {
+  opacity: 1;
+} */
