@@ -1,0 +1,40 @@
+#container {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.short-statement {
+  width: 400px;
+  position: absolute;
+  left: -20px;
+}
+
+/
+
+#text-1 {
+  width: 40%;
+}
+
+#projects {
+  background-size: cover;
+}
+
+#photo {
+  border: white 5px solid;
+  background-image: url("./main-pictures/manhattan-bridge.jpg");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#gallery {
+  background-size: cover;
+}
+
+#right-arrow {
+  color: white;
+  height: 2em;
+  width: 2em;
+  /* margin: 0 auto; */
+}

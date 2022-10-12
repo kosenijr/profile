@@ -1,0 +1,8 @@
+/* working on the Navbar itself through a self-entitled class name */
+.Navbar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: no-repeat url('../public/main')
+}

@@ -4,9 +4,7 @@
 // function
 const Project = () => {
     return (
-        <div>
-
-        </div>
+        <div> </div>
     )
 }
 

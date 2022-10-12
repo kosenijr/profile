@@ -1,0 +1,13 @@
+/* working on the Navbar itself through a self-entitled class name */
+.Navbar {
+  height: 25px;
+  /* precursor to using flexbox */
+  display: flex;
+  /* formattign the space between the potential logo and the div element */
+  justify-content: space-between;
+  align-items: center;
+  background: #e0f7fa;
+  /* background: gray; */
+}
+
+/* handle logo */

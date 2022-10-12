@@ -1,0 +1,12 @@
+/* working on the Navbar itself through a self-entitled class name */
+.Navbar {
+    height: 25px;
+    display: flex;
+    /* formattign the space between the potential logo and the div */
+    justify-content: space-between;
+    align-items: center;
+    /* background: #E0F7FA */
+    background: gray
+
+
+}
