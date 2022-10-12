@@ -1,0 +1,41 @@
+/* working on the Navbar itself through a self-entitled class name */
+.Navbar {
+  height: 25px;
+  /* padding: 5px; */
+  /* precursor to using flexbox */
+  display: flex;
+  /* formattign the space between the potential logo and the div items */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  justify-content: space-around;
+
+  align-items: center;
+  background: #e0f7fa;
+  /* background: gray; */
+}
+
+/* handle 'Kay' */
+.Navbar > .nav-logo > #kay {
+  color: rgb(27, 19, 192);
+  font-size: 16px;
+  font-weight: 750;
+  font-family: "Vladimir Script";
+}
+/* handle 'DEV */
+.Navbar > .nav-logo > #dev {
+  color: darkblue;
+  font-size: 16px;
+  font-weight: 750;
+}
+
+/* handle div with link items */
+.Navbar > .nav-items > a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 750;
+  font-family: "Times New Roman", Times, serif;
+  /* display: flex; */
+  justify-content: space-between;
+  margin: 15px;
+}
