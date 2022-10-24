@@ -1,0 +1,88 @@
+/* working on the Navbar itself through a self-entitled class name */
+.Navbar {
+  height: 25px;
+  /* padding: 5px; */
+  /* precursor to using flexbox */
+  display: flex;
+  /* formattign the space between the potential logo and the div items */
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-evenly; */
+
+  align-items: center;
+  background-color: lightgray;
+  /* background: gray; */
+  opacity: 0.8;
+}
+
+#living-water {
+  width: 1.5rem;
+  display: block;
+}
+
+/* handle 'Kay' */
+.Navbar > .nav-titles > .nav-logo > #n {
+  /* color: rgb(27, 19, 192); */
+  /* color: blue; */
+  /* color: green; */
+  font-size: 22px;
+  font-weight: 750;
+  /* font-family: "Vladimir Script"; */
+}
+/* handle 'DEV */
+.Navbar > .nav-titles > .nav-logo > #dev {
+  /* color: darkblue; */
+  /* color: red; */
+  color: green;
+  font-size: 16px;
+  font-weight: 750;
+}
+
+/* handle div with link items */
+.Navbar > .nav-items > a {
+  color: green;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 750;
+  font-family: "Times New Roman", Times, serif;
+  /* display: flex; */
+  justify-content: space-between;
+  margin: 15px;
+  position: relative;
+}
+
+/* change opacity of link items when hovered upon */
+.Navbar > .nav-items > a:hover {
+  opacity: 1;
+  color: white;
+}
+
+/* a bell and whistle */
+.Navbar > .nav-items > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  /* background: darkblue; */
+  /* background-color: red; */
+  background-color: green;
+  transition: all 0.3s;
+}
+
+.Navbar > .nav-items > a:hover::before {
+  width: 100%;
+}
+
+.inner-nav {
+  padding: 0 1px;
+}
+
+.nav-items {
+  justify-content: space-between;
+}
+
+a {
+  padding: 3px;
+}
