@@ -14,15 +14,14 @@
   height: 100vh;
 }
 
-.Background-Container {
-  background-image: url("../main-pictures/manhattan-bridge.jpg");
+/* .Background-Container {
   background-size: cover;
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-}
+} */
 
 .body-main {
   position: relative;
@@ -55,7 +54,7 @@
 
 .arrows {
   cursor: pointer;
-  color: pink;
+  color: white;
   height: 2em;
   width: 2em;
 }

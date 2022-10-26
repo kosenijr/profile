@@ -1,3 +1,12 @@
+#background {
+  background-image: url("../main-pictures/manhattan-bridge.jpg");
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
 #container {
   display: grid;
   grid-gap: 1rem;
@@ -34,7 +43,7 @@
 
 #photo {
   border: white 5px solid;
-  background-image: url("../main-pictures/manhattan-bridge.jpg");
+  /* background-image: url("../main-pictures/manhattan-bridge.jpg"); */
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
