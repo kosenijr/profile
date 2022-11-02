@@ -57,4 +57,17 @@
   color: white;
   height: 2em;
   width: 2em;
+  opacity: 0.1;
+}
+
+.arrows:hover {
+  opacity: 1;
+}
+
+.fade {
+  opacity: 0;
+  cursor: pointer;
+  color: white;
+  height: 2em;
+  width: 2em;
 }
