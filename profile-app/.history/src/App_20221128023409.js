@@ -4,13 +4,13 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import './Navbar.css';
-import './Body.css';
+import './Home.css';
 import Navbar from './components/Navbar';
-import Body from './components/Body';
 import Home from './components/Home';
 import About from './components/About';
-import Service from './components/Service';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import PageNotFound from './components/PageNotFound';
 // import Slideshow from './components/Slideshow'
 // import from react icons
 // import { HiOutLineMenuAlt1, HiOutlineX } from 'react-icons/hi'
@@ -24,15 +24,14 @@ function App() {
     <div className="Background-Container">
       <div className="App">
         <Router >
-        <Navbar />
+          <Navbar />
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route  path="/about" element={<About />} />
-            <Route  path="/service" element={<Service />} />
-            <Route  path="/contact" element={<Contact />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path='*' element={<PageNotFound />} />
           </Routes>
-          <Body />
-
         </Router>
       </div>
     </div>
