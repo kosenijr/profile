@@ -1,7 +1,7 @@
 // imports
 import React from 'react';
 // must import pertinent css
-import '../Navbar.css'
+import '../styles/Navbar.css'
 import img from '../main-pictures/living-waters-1.png'
 
 // functions
@@ -14,7 +14,7 @@ const Navbar = () => {
             </div>
             {/* span tag is an inline container used to mark up a part of a text or a part of a document: we will use for our logo */}
             <div className='inner-nav' id='ndevr'>
-                <span className='nav-logo'><span className='nr'>n</span><span id='dev'>DEV</span><span className='nr'>r</span></span>
+                <span className='nav-logo'><span className=''>n</span><span id='dev'>DEV</span><span className='nr'>r</span></span>
             </div>
 
             {/* set up nav-items and 4 a tags: i.e., home, contact */}
@@ -30,5 +30,5 @@ const Navbar = () => {
 }
 
 
-// export default
+// export defaultz
 export default Navbar

@@ -24,8 +24,7 @@
 .Navbar > .inner-nav > .nav-logo > .osni {
   /* color: rgb(27, 19, 192); */
   /* color: blue; */
-  color: #7fff00;
-  /* color: whitesmoke; */
+  color: whitesmoke;
   font-size: 22px;
   font-weight: 750;
   /* font-family: "Vladimir Script"; */
@@ -34,8 +33,7 @@
 .Navbar > .inner-nav > .nav-logo > #e {
   /* color: darkblue; */
   /* color: red; */
-  /* color: #7fff00; */
-  color: white;
+  color: #7fff00;
   font-size: 22px;
   font-weight: 750;
 }

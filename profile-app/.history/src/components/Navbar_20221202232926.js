@@ -1,7 +1,7 @@
 // imports
 import React from 'react';
 // must import pertinent css
-import '../Navbar.css'
+import '../styles/Navbar.cssNavbar.css'
 import img from '../main-pictures/living-waters-1.png'
 
 // functions
@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="inner-nav nav-items">
                 <a href="/">Home</a>
                 <a href="/about">About</a>
-                <a href="/portfolio">portfolio</a>
+                <a href="/portfolio">Portfolio</a>
                 <a href="/contact">Contact</a>
             </div>
         </div>
@@ -30,5 +30,5 @@ const Navbar = () => {
 }
 
 
-// export default
+// export defaultz
 export default Navbar
