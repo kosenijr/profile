@@ -14,16 +14,6 @@
   height: 100vh;
 }
 
-.Background-Container {
-  background-image: url("../main-pictures/manhattan-bridge.jpg");
-  background-size: cover;
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-}
-
 .body-main {
   position: relative;
 }
@@ -35,24 +25,38 @@
   }
 } */
 
-#ndevr {
+#oseni {
   height: 33px;
 }
 
-.title {
-}
-
-.desc-sub-container {
+/* .title {
   color: white;
-  height: 40rem;
-  border: 3px solid line;
-}
+} */
 
-.arrows-sub-container {
-  margin-top: 20%;
-}
+/* .desc-sub-container {
+  color: white;
+  height: 20rem;
+  border: 3px solid line;
+} */
+
+/* .arrows-sub-container {
+  margin-top: 0%;
+} */
 
 .arrows {
+  cursor: pointer;
+  color: white;
+  height: 2em;
+  width: 2em;
+  opacity: 0.1;
+}
+
+.arrows:hover {
+  opacity: 1;
+}
+
+.fade {
+  opacity: 0;
   cursor: pointer;
   color: white;
   height: 2em;
