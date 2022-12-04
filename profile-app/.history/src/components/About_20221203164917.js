@@ -17,7 +17,7 @@ const About = () => {
 
                 <p>Through his programming projects and photography, our founder seeks to create a platform that helps foster visual creativity and functionality within the world of code.</p>
             </div>
-            <div className='arrows-sub-container'>
+            <div className='arrows sub-container'>
                 <FaArrowCircleLeft className='arrows' onClick={() => navigate('/')} /><FaArrowCircleRight className='arrows' onClick={() => navigate('/portfolio')} />
             </div>
         </div >

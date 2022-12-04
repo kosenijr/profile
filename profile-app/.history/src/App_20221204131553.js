@@ -3,6 +3,12 @@ import React from 'react'
 // import react router
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import './styles/Navbar.css';
+import './styles/Home.css';
+import './styles/Home.css';
+import './styles/Home.css';
+import './styles/Home.css';
+
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';

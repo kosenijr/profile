@@ -13,7 +13,7 @@ const Navbar = () => {
                 <img src={img} alt="logo" className='nav-spacing' id='living-water' />
             </div>
             {/* span tag is an inline container used to mark up a part of a text or a part of a document: we will use for our logo */}
-            <div className='inner-nav' id='oseni'>
+            <div className='inner-nav' id='ose '>
                 <span className='nav-logo'><span className='osni'>os</span><span id='e'>e</span><span className='osni'>ni</span></span>
             </div>
 

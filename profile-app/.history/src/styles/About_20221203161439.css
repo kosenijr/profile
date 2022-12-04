@@ -1,4 +1,4 @@
-#background {
+. {
   background-image: url("../main-pictures/building2.jpg");
   background-size: cover;
   background-color: black;
@@ -35,7 +35,7 @@
   } */
 
 /* #text-1 {
-    width: 40%;k
+    width: 40%;
   } */
 
 #projects {

@@ -18,7 +18,7 @@ const Home = () => {
                 <p className='front-text' id='text-2'>I'd like to show you a few things.</p>
                 <br />
                 <p className='front-text' id='text-3'>C'mon!</p>
-                <div className='arrows-sub-container'>
+                <div className='sub-container'>
                     <FaArrowCircleRight className='arrows' onClick={() => navigate('/about')} />
                 </div>
             </div>
