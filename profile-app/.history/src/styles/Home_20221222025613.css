@@ -14,9 +14,9 @@
 } */
 
 .short-statement {
-  /* position: absolute;
+  position: absolute;
   left: 0;
-  right: 0; */
+  right: 0;
   color: white;
   line-height: 3;
 }
@@ -55,13 +55,11 @@
   background-size: cover;
 }  */
 
-.home-main-container {
-}
-
 .home-desc-sub-container {
   color: white;
   height: 20rem;
   border: 3px solid line;
   text-align: right;
-  padding-right: 10%;
+  width: 1rem;
+
 }

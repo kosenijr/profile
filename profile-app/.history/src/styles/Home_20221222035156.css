@@ -56,6 +56,7 @@
 }  */
 
 .home-main-container {
+
 }
 
 .home-desc-sub-container {
@@ -64,4 +65,6 @@
   border: 3px solid line;
   text-align: right;
   padding-right: 10%;
+
+  /* text-align: right; */
 }
