@@ -54,13 +54,8 @@
   height: 9rem;
   width: 9rem;
   background-color: #131311;
-  opacity: 0.7;
   border-radius: 30%;
   margin: 0 2rem;
-}
-
-.project-container:hover {
-  opacity: 1;
 }
 
 .project-container-text {
@@ -80,13 +75,9 @@
 .portfolio-arrows {
   cursor: pointer;
   color: white;
-  opacity: 0.3;
+  opacity: 
   height: 2em;
   width: 2em;
-}
-
-.portfolio-arrows:hover {
-  opacity: 1;
 }
 
 .portfolio-arrows-sub-container {

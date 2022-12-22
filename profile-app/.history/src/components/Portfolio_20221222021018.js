@@ -21,8 +21,8 @@ const Portfolio = () => {
                 </div>
 
             </div>
-            <div className='portfolio-arrows-sub-container'>
-                <FaArrowCircleLeft className='portfolio-arrows' onClick={() => navigate('/about')} /><FaArrowCircleRight className='portfolio-arrows' onClick={() => navigate('/contact')} />
+            <div className='arrows-sub-container'>
+                <FaArrowCircleLeft className='arrows' onClick={() => navigate('/about')} /><FaArrowCircleRight className='arrows' onClick={() => navigate('/contact')} />
 
             </div>
         </div>

@@ -11,18 +11,18 @@ const Portfolio = () => {
         <div className='main-container' id='portfolio-background'>
             <div className="desc-sub-container">
                 <h1 className='title'>Portfolio</h1>
-                <div className="portfolio-container">
-                    <div className="project-container">
-                        <h5 className="project-container-text">To-Do App</h5>
+                <div className="main-container">
+                    <div className="portfolio-container">
+                        To Do
                     </div>
                     <div className="project-container">
-                        <h5 className="project-container-text">Triage App</h5>
+                        Triage
                     </div>
                 </div>
 
             </div>
-            <div className='portfolio-arrows-sub-container'>
-                <FaArrowCircleLeft className='portfolio-arrows' onClick={() => navigate('/about')} /><FaArrowCircleRight className='portfolio-arrows' onClick={() => navigate('/contact')} />
+            <div className='arrows-sub-container'>
+                <FaArrowCircleLeft className='arrows' onClick={() => navigate('/about')} /><FaArrowCircleRight className='arrows' onClick={() => navigate('/contact')} />
 
             </div>
         </div>

@@ -47,24 +47,14 @@
   display: flex;
   justify-content: center;
   opacity: 0.9;
-  padding: 5% 2% 0 0;
+  bottom: 20%
 }
-
 .project-container {
   height: 9rem;
   width: 9rem;
   background-color: #131311;
-  opacity: 0.7;
   border-radius: 30%;
   margin: 0 2rem;
-}
-
-.project-container:hover {
-  opacity: 1;
-}
-
-.project-container-text {
-  padding-top: 40%;
 }
 
 .desc-sub-container {
@@ -77,18 +67,9 @@
     margin-top: 0%;
   } */
 
-.portfolio-arrows {
+.arrows {
   cursor: pointer;
   color: white;
-  opacity: 0.3;
   height: 2em;
   width: 2em;
-}
-
-.portfolio-arrows:hover {
-  opacity: 1;
-}
-
-.portfolio-arrows-sub-container {
-  padding-right: 2.5%;
 }
