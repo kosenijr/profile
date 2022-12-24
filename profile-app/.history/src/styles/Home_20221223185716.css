@@ -1,0 +1,23 @@
+#home-background {
+  background-image: url("../main-pictures/manhattan-bridge.jpg");
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.short-statement {
+  color: white;
+  line-height: 3;
+}
+
+.home-desc-sub-container {
+  text-align: right;
+  padding-right: 10%;
+}
+
+.arrows-sub-container {
+  color: bluered
+}
