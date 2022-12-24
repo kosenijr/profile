@@ -5,6 +5,8 @@ const Form = () => {
     return (
         <form>
             <ul>
+
+
                 <div className="subtitle">I APPRECIATE YOUR THOUGHTS</div>
 
                 <input type="text" className="contact-name-input" />
@@ -15,7 +17,7 @@ const Form = () => {
 
                 My name is <div className="contact-form-input" contenteditable="true" data-target="contact-name-input"></div>.
                 <br />
-                The best email for your reply will be <div className="contact-form-input" contenteditable="true" data-target="contact-mail-input"></div>.
+                The best email for your reply is <div className="contact-form-input" contenteditable="true" data-target="contact-mail-input"></div>.
                 <br />
                 I'd like to say that <div className="contact-form-input" contenteditable="true" data-target="contact-project-input"></div>.
 

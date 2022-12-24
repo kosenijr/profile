@@ -28,6 +28,6 @@ input {
   transition: all ease-in-out 0.3s;
 }
 
-.contact-form-input.focus:after {
-  display: none !important;
+.contact-form-input.focus: after {
+    display: none !important
 }

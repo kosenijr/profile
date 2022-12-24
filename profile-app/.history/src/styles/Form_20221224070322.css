@@ -29,5 +29,6 @@ input {
 }
 
 .contact-form-input.focus:after {
-  display: none !important;
+    display: none !important
 }
+
