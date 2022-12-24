@@ -19,7 +19,7 @@ const Contact = () => {
         <div className='main-container' id='contact-background'>
             <div className='desc-sub-container'>
                 <h1 className='title'>Contact</h1>
-                <Form />
+                <Form />>
             </div>
             <div className='arrows-sub-container'>
                 <FaArrowCircleLeft className='arrows' onClick={() => navigate('/portfolio')} /><FaArrowCircleRight className='arrows' onClick={() => navigate('/')} />

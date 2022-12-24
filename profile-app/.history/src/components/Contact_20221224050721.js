@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom'
-import Form from './Form'
 import '../styles/Contact.css'
 
 
@@ -19,7 +18,6 @@ const Contact = () => {
         <div className='main-container' id='contact-background'>
             <div className='desc-sub-container'>
                 <h1 className='title'>Contact</h1>
-                <Form />
             </div>
             <div className='arrows-sub-container'>
                 <FaArrowCircleLeft className='arrows' onClick={() => navigate('/portfolio')} /><FaArrowCircleRight className='arrows' onClick={() => navigate('/')} />
