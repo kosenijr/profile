@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import '../styles/Form.css'
 
 const Form = () => {
