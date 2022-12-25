@@ -86,7 +86,7 @@ input {
 }
 
 [data-target="contact-mail-input"]:after {
-  content: "this e-mail";
+  content: "my e-mail";
 }
 
 [data-target="contact-project-input"] {

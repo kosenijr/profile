@@ -78,7 +78,7 @@ input {
 }
 
 [data-target="contact-name-input"]:after {
-  content: "this name";
+  content: "my name";
 }
 
 [data-target="contact-mail-input"] {
@@ -86,7 +86,7 @@ input {
 }
 
 [data-target="contact-mail-input"]:after {
-  content: "this e-mail";
+  content: "my e-mail";
 }
 
 [data-target="contact-project-input"] {

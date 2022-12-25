@@ -47,20 +47,20 @@ input {
   display: none !important;
 }
 
-.contact-form-input.typing[data-target="contact-name-input"],
-.contact-form-input.typing[data-target="contact-mail-input"],
+.contact-form-input.typing[data-target="contactNameInpt"],
+.contact-form-input.typing[data-target="contactMailInpt"],
 .wrapper
   .mainWrap
   .contactWrap
   .contactBlock.pitchBlock
   .text
-  .cFormInput.typing[data-target="contact-project-input"] {
+  .cFormInput.typing[data-target="contactProjectInpt"] {
   min-width: 10px;
 }
 
-.contact-form-input.typing[data-target="contact-name-input"]:after,
-.contact-form-input.typing[data-target="contact-mail-input"]:after,
-.contact-form-input.typing[data-target="contact-project-input"]:after {
+.contact-form-input.typing[data-target="contactNameInpt"]:after,
+.contact-form-input.typing[data-target="contactMailInpt"]:after,
+.contact-form-input.typing[data-target="contactProjectInpt"]:after {
   opacity: 0;
 }
 
@@ -73,26 +73,26 @@ input {
   transition: all ease 0.3s;
 }
 
-[data-target="contact-name-input"] {
+[data-target="contactNameInpt"] {
   min-width: 75px;
 }
 
-[data-target="contact-name-input"]:after {
-  content: "this name";
+[data-target="contactNameInpt"]:after {
+  content: "your name";
 }
 
-[data-target="contact-mail-input"] {
+[data-target="contactMailInpt"] {
   min-width: 80px;
 }
 
-[data-target="contact-mail-input"]:after {
-  content: "this e-mail";
+[data-target="contactMailInpt"]:after {
+  content: "your e-mail";
 }
 
-[data-target="contact-project-input"] {
+[data-target="contactProjectInpt"] {
   min-width: 85px;
 }
 
-[data-target="contact-project-input"]:after {
-  content: "this message";
+[data-target="contactProjectInpt"]:after {
+  content: "this project";
 }

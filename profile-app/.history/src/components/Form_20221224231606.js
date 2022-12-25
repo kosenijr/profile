@@ -15,7 +15,7 @@ const Form = () => {
 
                 Hello,
                 <br />
-                I am <div className="contact-form-input" contenteditable="true" data-target="contact-name-input"></div>.
+                I am <div className="contact-form-input" contenteditable="true" data-target="contact-name-input"></div>
                 <br />
                 The best way to reply will be <div className="contact-form-input" contenteditable="true" data-target="contact-mail-input"></div>.
                 <br />

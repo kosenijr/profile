@@ -14,12 +14,12 @@ const Form = () => {
                 <input type="text" className="contact-project-input" />
 
                 Hello,
-                <br />
+
                 I am <div className="contact-form-input" contenteditable="true" data-target="contact-name-input"></div>.
                 <br />
-                The best way to reply will be <div className="contact-form-input" contenteditable="true" data-target="contact-mail-input"></div>.
+                The best way to reply  will be <div className="contact-form-input" contenteditable="true" data-target="contact-mail-input"></div>.
                 <br />
-                I'd like to leave <div className="contact-form-input" contenteditable="true" data-target="contact-project-input"></div>.
+                I'd like to say that <div className="contact-form-input" contenteditable="true" data-target="contact-project-input"></div>.
 
 
 

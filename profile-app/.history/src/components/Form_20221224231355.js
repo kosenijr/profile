@@ -17,6 +17,7 @@ const Form = () => {
                 <br />
                 I am <div className="contact-form-input" contenteditable="true" data-target="contact-name-input"></div>.
                 <br />
+                <br />
                 The best way to reply will be <div className="contact-form-input" contenteditable="true" data-target="contact-mail-input"></div>.
                 <br />
                 I'd like to leave <div className="contact-form-input" contenteditable="true" data-target="contact-project-input"></div>.
