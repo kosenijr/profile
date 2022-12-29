@@ -41,7 +41,7 @@ input::placeholder {
 }
 
 input {
-  border: 0;
+  border: 10;
   background-color: black;
   padding: 0 5%;
 }

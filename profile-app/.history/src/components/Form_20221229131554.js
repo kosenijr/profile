@@ -33,7 +33,7 @@ const Form = () => {
                         <br />
                         My best contact is <div className="input-wrapper" contenteditable="true" data-target="contact-mail-input"><input type="text" className="contact-mail-input" onClick={() => handleInput()} placeholder='this email' /></div>.
                         <br />
-                        I'd like to leave <div className="input-wrapper" contenteditable="true" data-target="contact-message-input"> <input type="text" className="contact-message-input" onClick={() => handleInput()} placeholder='this message' /></div>.
+                        I'd like to leave <div className="input-wrapper" contenteditable="true" data-target="contact-message-input" > <input type="text" className="contact-message-input" placeholder='this message' /></div>.
                     </ul>
                 </form>
             </div>

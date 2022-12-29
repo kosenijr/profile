@@ -6,7 +6,8 @@ const Form = () => {
     const [input, setInput] = useState('');
 
     const handleInput = (e) => {
-        console.log('function working')
+        console.log(setInput(e.target.value));
+        // setInput(e.target.value);
     }
 
 
@@ -29,11 +30,11 @@ const Form = () => {
 
                         Hello,
                         <br />
-                        I am <div className="input-wrapper" contenteditable="true" data-target="contact-name-input" > <input type="text" className="contact-name-input" placeholder='this name' onClick={() => handleInput()} /></div>.
+                        I am <div className="contact-form-input" contenteditable="true" data-target="contact-name-input" > <input type="text" className="contact-name-input" placeholder='this name' onClick={() => handleInput()} /></div>.
                         <br />
-                        My best contact is <div className="input-wrapper" contenteditable="true" data-target="contact-mail-input"><input type="text" className="contact-mail-input" onClick={() => handleInput()} placeholder='this email' /></div>.
+                        My best contact is <div className="contact-form-input" contenteditable="true" data-target="contact-mail-input" onClick={() => handleInput()}><input type="text" className="contact-mail-input" placeholder='this email' /></div>.
                         <br />
-                        I'd like to leave <div className="input-wrapper" contenteditable="true" data-target="contact-message-input"> <input type="text" className="contact-message-input" onClick={() => handleInput()} placeholder='this message' /></div>.
+                        I'd like to leave <div className="contact-form-input" contenteditable="true" data-target="contact-message-input" onClick={() => handleInput()}> <input type="text" className="contact-message-input" placeholder='this message' /></div>.
                     </ul>
                 </form>
             </div>

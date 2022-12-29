@@ -24,7 +24,7 @@ li {
   line-height: 2;
 }
 
-.input-wrapper {
+.contact-form-input {
   display: inline-block;
   position: relative;
   max-width: 240px;
@@ -36,12 +36,6 @@ li {
   color: yellow;
 }
 
-input::placeholder {
-  color: yellow;
-}
-
 input {
   border: 0;
-  background-color: black;
-  padding: 0 5%;
 }
