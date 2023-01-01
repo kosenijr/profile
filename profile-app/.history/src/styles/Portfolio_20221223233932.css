@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* boxsizing: property sets how the total width and height of an element is calculated.
+    border-box: child container border stays within inner border of parent container border at 100%
+    content-box: child container border can extend past outer border of parent container border at 100% and the right amount of padding.
+     */
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+#portfolio-background {
+  background-image: url("../main-pictures/the-towers.jpg");
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.body-main {
+  position: relative;
+}
+
+/* #ndevr {
+  height: 33px;
+} */
+
+.title {
+  color: white;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+  padding: 5% 2% 0 0;
+}
+
+.project-container {
+  height: 9rem;
+  width: 9rem;
+  background-color: #131311;
+  opacity: 0.7;
+  border-radius: 30%;
+  margin: 0 2rem;
+}
+
+.project-container:hover {
+  opacity: 1;
+}
+
+/* .project-container-text {
+  padding-top: 40%;
+} */
+
+.portfolio-arrows {
+  cursor: pointer;
+  color: white;
+  opacity: 0.3;
+  height: 2em;
+  width: 2em;
+  left: 2rem;
+}
+
+.portfolio-arrows:hover {
+  opacity: 1;
+}

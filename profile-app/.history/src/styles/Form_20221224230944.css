@@ -1,0 +1,98 @@
+form {
+  text-align: left;
+  padding-left: 1rem;
+}
+li {
+  line-height: 3;
+}
+
+input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.subtitle {
+  font-weight: 700;
+  line-height: 2;
+}
+
+.contact-form-input {
+  display: inline-block;
+  position: relative;
+  max-width: 240px;
+  vertical-align: top;
+  font-size: 14px;
+  color: #54b6bd;
+  font-weight: 500;
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+}
+
+.contact-form-input.focus:after {
+  display: none !important;
+}
+
+.contact-form-input:after {
+  position: absolute;
+  left: 0;
+  color: #54b6bd;
+  transition: all ease-in-out 0.3s;
+}
+
+.contact-form-input.empty:after {
+  color: #b70000;
+}
+
+.contact-form-input.focus:after {
+  display: none !important;
+}
+
+.contact-form-input.typing[data-target="contact-name-input"],
+.contact-form-input.typing[data-target="contact-mail-input"],
+.wrapper
+  .mainWrap
+  .contactWrap
+  .contactBlock.pitchBlock
+  .text
+  .cFormInput.typing[data-target="contact-project-input"] {
+  min-width: 10px;
+}
+
+.contact-form-input.typing[data-target="contact-name-input"]:after,
+.contact-form-input.typing[data-target="contact-mail-input"]:after,
+.contact-form-input.typing[data-target="contact-project-input"]:after {
+  opacity: 0;
+}
+
+.contact-form-input:after {
+  position: absolute;
+  left: 0;
+  font-size: 14px;
+  color: #54b6bd;
+  font-family: "Montserrat", sans-serif;
+  transition: all ease 0.3s;
+}
+
+[data-target="contact-name-input"] {
+  min-width: 75px;
+}
+
+[data-target="contact-name-input"]:after {
+  content: "your name";
+}
+
+[data-target="contact-mail-input"] {
+  min-width: 80px;
+}
+
+[data-target="contact-mail-input"]:after {
+  content: "my e-mail";
+}
+
+[data-target="contact-project-input"] {
+  min-width: 85px;
+}
+
+[data-target="contact-project-input"]:after {
+  content: "this message";
+}

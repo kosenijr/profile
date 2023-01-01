@@ -1,0 +1,23 @@
+form
+li {
+    line-height: 3;
+}
+
+/* input, textarea {
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 30%;
+    height: 1rem;
+    opacity: 0.3
+}
+
+input:hover, textarea:hover {
+opacity: 1;
+color: white;
+} */
+
+input {
+    position: absolute;
+    visibility: hidden;
+}
+

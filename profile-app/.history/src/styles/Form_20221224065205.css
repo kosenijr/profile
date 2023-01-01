@@ -1,0 +1,14 @@
+form {
+    text-align: left;
+    padding-left: 1rem;
+}
+li {
+    line-height: 3;
+}
+
+input {
+    position: absolute;
+    visibility: hidden;
+}
+
+
