@@ -1,0 +1,61 @@
+.direct-contact {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.contact-info {
+  color: yellow;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+li {
+  line-height: 3;
+}
+
+/* input {
+  position: absolute;
+  visibility: hidden;
+} */
+
+.subtitle {
+  font-weight: 700;
+  line-height: 2;
+}
+
+.input-wrapper {
+  display: inline-block;
+  position: relative;
+  max-width: 240px;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+  color: yellow;
+  overflow: visible;
+}
+
+input::placeholder {
+  color: yellow;
+}
+
+input:focus {
+  outline: none;
+  color: yellow;
+}
+
+input {
+  border: 0;
+  background-color: transparent;
+  padding: 0 5%;
+  color: yellow;
+  outline: none;
+  overflow: visible;
+}
+
+form > ul > button {
+  background-color: ;
+  color: yellow;
+}
