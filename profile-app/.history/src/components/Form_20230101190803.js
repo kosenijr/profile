@@ -26,12 +26,12 @@ const Form = () => {
         alert('Your form was submitted!');
 
         const formToSubmit = {
-            name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
+            name: { name },
+            contact: { contact },
+            message: { message }
         }
 
-        console.log(formToSubmit);
+        console.log(...formToSubmit);
     }
 
     return (

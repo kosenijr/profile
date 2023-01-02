@@ -25,10 +25,9 @@ const Form = () => {
         e.preventDefault();
         alert('Your form was submitted!');
 
-        const formToSubmit = {
-            name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
+        const formToSubmit = {{ name },
+            contact: { contact },
+            message: { message }
         }
 
         console.log(formToSubmit);
