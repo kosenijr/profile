@@ -24,14 +24,6 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         alert('Your form was submitted!');
-
-        const formToSubmit = {
-            name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
-        }
-
-        console.log(formToSubmit);
     }
 
     return (

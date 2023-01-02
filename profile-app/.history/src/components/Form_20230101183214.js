@@ -24,14 +24,6 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         alert('Your form was submitted!');
-
-        const formToSubmit = {
-            name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
-        }
-
-        console.log(formToSubmit);
     }
 
     return (
@@ -48,7 +40,7 @@ const Form = () => {
             </div>
             <br />
             <div className="contact-form">
-                <form >
+                <form onChange={handleSubmit}>
                     <ul>
                         <div className="subtitle">I APPRECIATE YOUR THOUGHTS</div>
 
@@ -60,7 +52,7 @@ const Form = () => {
                         <br />
                         I'd like to leave <div className="input-wrapper"> <input type="text" className="contact-message-input" onChange={handleMessageChange} value={message} placeholder='this message' /></div>
                         <br />
-                        <button type='submit' onClick={handleSubmit}>Submit</button>
+                        <button type='submit'>Submit</button>
                     </ul>
                 </form>
             </div>

@@ -22,13 +22,13 @@ const Form = () => {
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         alert('Your form was submitted!');
 
         const formToSubmit = {
-            name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
+            name: { name },
+            contact: { contact },
+            message: { message }
         }
 
         console.log(formToSubmit);
@@ -48,7 +48,7 @@ const Form = () => {
             </div>
             <br />
             <div className="contact-form">
-                <form >
+                <form onChange={handleSubmit}>
                     <ul>
                         <div className="subtitle">I APPRECIATE YOUR THOUGHTS</div>
 

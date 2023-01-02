@@ -6,6 +6,7 @@ const Form = () => {
     const [name, setName] = useState('');
     const [contact, setContact] = useState('');
     const [message, setMessage] = useState('');
+    const [submit, setSubmit] = useState(false);
 
     const handleNameChange = (e) => {
         setName(e.target.value);
@@ -22,16 +23,10 @@ const Form = () => {
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-        alert('Your form was submitted!');
+        e.preventDefault;
 
-        const formToSubmit = {
-            name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
-        }
-
-        console.log(formToSubmit);
+        setSubmit(true);
+        console.log('You clicked it!', submit);
     }
 
     return (
@@ -48,7 +43,7 @@ const Form = () => {
             </div>
             <br />
             <div className="contact-form">
-                <form >
+                <form onHandleSubmit={handleSubmit}>
                     <ul>
                         <div className="subtitle">I APPRECIATE YOUR THOUGHTS</div>
 
@@ -60,7 +55,7 @@ const Form = () => {
                         <br />
                         I'd like to leave <div className="input-wrapper"> <input type="text" className="contact-message-input" onChange={handleMessageChange} value={message} placeholder='this message' /></div>
                         <br />
-                        <button type='submit' onClick={handleSubmit}>Submit</button>
+                        <button type='submit'>Submit</button>
                     </ul>
                 </form>
             </div>

@@ -27,8 +27,8 @@ const Form = () => {
 
         const formToSubmit = {
             name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
+            contact: { contact },
+            message: { message }
         }
 
         console.log(formToSubmit);

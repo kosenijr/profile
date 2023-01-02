@@ -22,13 +22,13 @@ const Form = () => {
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-        alert('Your form was submitted!');
+        // e.preventDefault();
+   
 
         const formToSubmit = {
-            name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
+            name: { name },
+            contact: { contact },
+            message: { message }
         }
 
         console.log(formToSubmit);

@@ -23,12 +23,12 @@ const Form = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert('Your form was submitted!');
+        action = 'osenik@outlook.com'
 
         const formToSubmit = {
-            name: `${name}`,
-            contact: `${contact}`,
-            message: `${message}`
+            name: { name },
+            contact: { contact },
+            message: { message }
         }
 
         console.log(formToSubmit);
