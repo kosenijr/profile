@@ -64,7 +64,7 @@ input {
 
 form > ul > button {
   background-color: black;
-  padding: 0.125rem 0.25rem;
+  padding: 1rem 0.25rem;
   border: solid;
   border-radius: 15%;
   color: yellow;
