@@ -37,11 +37,9 @@
 
 .portfolio-container {
   display: flex;
-  /* justify-content: center; */
-  justify-content: right;
+  justify-content: center;
   opacity: 0.9;
-  /* padding: 5% 2% 0 0; */
-  padding-top: 3rem;
+  padding: 5% 2% 0 0;
 }
 
 .project-container {
@@ -62,16 +60,7 @@
   background-color: teal;
 }
 
-.portfolio-desc-sub-container {
-  text-align: right;
-  padding-right: 10%;
-}
-
-.portfolio-title {
-  color: white;
-  text-align: right;
-  padding-right: 10%;
-}
+.portfolio-
 
 #triage-box {
   background-color: brown;

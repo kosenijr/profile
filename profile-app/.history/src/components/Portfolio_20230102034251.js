@@ -9,7 +9,7 @@ const Portfolio = () => {
     const navigate = useNavigate();
     return (
         <div className='main-container' id='portfolio-background'>
-            <div className="desc-sub-container portfolio-desc-sub-container">
+            <div className="portfolio-desc-sub-container">
                 <h1 className='portfolio-title'>Portfolio</h1>
                 <div className="portfolio-container">
                     <div className="project-container" id='to-do-box'>

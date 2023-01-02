@@ -33,7 +33,9 @@
 }
 
 .contact-title {
-  color: white;
+  /* color: white; */
+  /* color: yellow; */
+  color: #e9ff32;
   text-align: left;
   padding-left: 1rem;
 }
