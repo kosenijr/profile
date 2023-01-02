@@ -17,6 +17,7 @@ const Form = () => {
 
     const handleMessageChange = (e) => {
         setMessage(e.target.value);
+        console.log('message working')
     };
 
     const handleSubmit = (e) => {
