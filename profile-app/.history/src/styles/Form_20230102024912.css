@@ -34,11 +34,11 @@ li {
   opacity: 1;
   transition: all ease-in-out 0.3s;
   /* color: yellow; */
+  color: #7fff00;
   overflow: visible;
 }
 
 input::placeholder {
-  /* color: yellow; */
   color: yellow;
 }
 
@@ -64,7 +64,7 @@ input {
 
 form > ul > button {
   background-color: black;
-  padding: 0.125rem 0.25rem;
+  padding: 0.25rem;
   border: solid;
   border-radius: 15%;
   color: yellow;
