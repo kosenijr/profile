@@ -53,6 +53,10 @@
   opacity: 1;
 }
 
+#to-do-box {
+  background-color: teal;
+}
+
 .portfolio-desc-sub-container {
   text-align: right;
   padding-right: 10%;
@@ -63,14 +67,9 @@
 }
 
 #to-do-box {
-  background-image: url("../main-pictures/to-do-app.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: "../main-pictures/Mt Sinai App.jpg";
 }
 
 #triage-box {
-  background-image: url("../main-pictures/mt-sinai-app.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  bottom: 
+  background-color: brown;
 }

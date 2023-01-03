@@ -63,14 +63,10 @@
 }
 
 #to-do-box {
-  background-image: url("../main-pictures/to-do-app.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: teal;
+  background-attachment: url("../main-pictures/Mt Sinai App.jpg");
 }
 
 #triage-box {
-  background-image: url("../main-pictures/mt-sinai-app.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  bottom: 
+  background-color: brown;
 }

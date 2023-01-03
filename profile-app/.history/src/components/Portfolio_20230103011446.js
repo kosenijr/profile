@@ -5,10 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import '../styles/Portfolio.css'
 
 const toDoGitHub = () => {
-    window.open('https://github.com/kosenijr/to-do-app');
-}
-const triageGitHub = () => {
-    window.open('https://github.com/kosenijr/triage-app');
+    window.open();
 }
 
 // function
@@ -19,10 +16,10 @@ const Portfolio = () => {
             <div className="desc-sub-container portfolio-desc-sub-container">
                 <h1 className='portfolio-title'>Portfolio</h1>
                 <div className="portfolio-container">
-                    <div className="project-container" id='to-do-box' onClick={() => toDoGitHub()}>
+                    <div className="project-container" id='to-do-box' onClick={() => { navigate('https://github.com/kosenijr/to-do-app') }}>
                         <h5 className="project-container-text">To-Do App</h5>
                     </div>
-                    <div className="project-container" id='triage-box' onClick={() => triageGitHub()}>
+                    <div className="project-container" id='triage-box' onClick={() => { navigate('https://github.com/kosenijr/triage-app') }}>
                         <h5 className="project-container-text" >Triage App</h5>
                     </div>
                 </div>

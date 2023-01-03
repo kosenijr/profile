@@ -19,10 +19,10 @@ const Portfolio = () => {
             <div className="desc-sub-container portfolio-desc-sub-container">
                 <h1 className='portfolio-title'>Portfolio</h1>
                 <div className="portfolio-container">
-                    <div className="project-container" id='to-do-box' onClick={() => toDoGitHub()}>
+G}>
                         <h5 className="project-container-text">To-Do App</h5>
                     </div>
-                    <div className="project-container" id='triage-box' onClick={() => triageGitHub()}>
+                    <div className="project-container" id='triage-box' onClick={() => { navigate() }}>
                         <h5 className="project-container-text" >Triage App</h5>
                     </div>
                 </div>
