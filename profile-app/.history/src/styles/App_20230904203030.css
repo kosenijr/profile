@@ -10,7 +10,7 @@
 }
 
 .App {
-  /* text-align: center; */
+  text-align: center;
   height: 100vh;
 }
 
@@ -24,6 +24,10 @@
   height: 20rem;
   overflow: visible;
   border: 3px solid line;
+}
+.desc-sub-container > h1 {
+  text-align: left;
+  padding-left: 43m;
 }
 
 .desc-sub-container > p {

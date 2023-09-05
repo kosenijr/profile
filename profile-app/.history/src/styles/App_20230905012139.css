@@ -6,7 +6,7 @@
   content-box: child container border can extend past outer border of parent container border at 100% and the right amount of padding.
    */
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .App {

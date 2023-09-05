@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   /* boxsizing: property sets how the total width and height of an element is calculated.
@@ -7,7 +7,7 @@
    */
   box-sizing: border-box;
   overflow: hidden;
-}
+} */
 
 .App {
   /* text-align: center; */

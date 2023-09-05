@@ -18,13 +18,13 @@
   position: relative;
 }
 
-.desc-sub-container {
+/* .desc-sub-container {
   color: white;
   margin-top: 2rem;
   height: 20rem;
   overflow: visible;
   border: 3px solid line;
-}
+} */
 
 .desc-sub-container > p {
   padding: 1em 0 0 4em;

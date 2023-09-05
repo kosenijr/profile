@@ -14,15 +14,10 @@
 }
 
 .home-desc-sub-container {
-  /* text-align: right; */
-  /* padding-right: 10%; */
-  /* margin-left: 45%; */
+  text-align: right;
+  padding-right: 10%;
 }
 
 .desc-sub-container > div > p {
-  text-align: justify;
-}
-
-.title {
-  /* text-align: left;   */
+  color: blue;
 }

@@ -10,12 +10,12 @@
 }
 
 .App {
-  /* text-align: center; */
+  text-align: center;
   height: 100vh;
 }
 
 .body-main {
-  position: relative;
+  /* position: relative; */
 }
 
 .desc-sub-container {

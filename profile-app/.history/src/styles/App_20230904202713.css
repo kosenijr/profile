@@ -10,7 +10,7 @@
 }
 
 .App {
-  /* text-align: center; */
+  text-align: center;
   height: 100vh;
 }
 
@@ -22,13 +22,11 @@
   color: white;
   margin-top: 2rem;
   height: 20rem;
-  overflow: visible;
   border: 3px solid line;
 }
 
 .desc-sub-container > p {
-  padding: 1em 0 0 4em;
-  text-align: justify;
+  padding: 0 0 0 0;
 }
 
 .arrows-sub-container {

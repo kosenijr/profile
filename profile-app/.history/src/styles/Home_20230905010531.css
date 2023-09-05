@@ -9,7 +9,8 @@
 }
 
 .short-statement {
-  color: white;
+  /* color: white; */
+  color: green;
   line-height: 3;
 }
 

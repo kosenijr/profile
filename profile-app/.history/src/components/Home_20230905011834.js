@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="" id="home-background">
-      <div className="desc-sub-container home-desc-sub-container">
+      <div className="home-desc-sub-container">
         <h1 className="title">Welcome!</h1>
         <div className="short-statement">
           <p className="front-text" id="text-1">

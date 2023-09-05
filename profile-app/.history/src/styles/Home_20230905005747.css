@@ -10,7 +10,7 @@
 
 .short-statement {
   color: white;
-  line-height: 3;
+  /* line-height: 3; */
 }
 
 .home-desc-sub-container {
@@ -21,8 +21,4 @@
 
 .desc-sub-container > div > p {
   text-align: justify;
-}
-
-.title {
-  /* text-align: left;   */
 }

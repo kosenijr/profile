@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   /* boxsizing: property sets how the total width and height of an element is calculated.
   border-box: child container border stays within inner border of parent container border at 100%
   content-box: child container border can extend past outer border of parent container border at 100% and the right amount of padding.
@@ -10,7 +10,7 @@
 }
 
 .App {
-  /* text-align: center; */
+  text-align: center;
   height: 100vh;
 }
 
