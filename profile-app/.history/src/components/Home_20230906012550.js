@@ -8,9 +8,9 @@ import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 const Home = () => {
   const navigate = useNavigate();
   return (
-    <div id="home-background">
+    <div>
       <div className="desc-sub-container home-desc-sub-container">
-        <h1>Welcome!</h1>
+        <h1 className="title">Welcome!</h1>
         <div className="short-statement">
           <p className="front-text" id="text-1">
             My name is Kayode (Kah-yoh-deh). I am a front-end developer and

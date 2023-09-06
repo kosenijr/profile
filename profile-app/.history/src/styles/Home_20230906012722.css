@@ -2,14 +2,10 @@
   background-image: url("../main-pictures/manhattan-bridge.jpg");
   background-size: cover;
   background-color: black;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-}
-
-.title {
-  /* text-align: left;   */
 }
 
 .short-statement {
@@ -24,6 +20,9 @@
 }
 
 .desc-sub-container > div > p {
-  /* text-align: justify; */
+  text-align: justify;
 }
 
+.title {
+  /* text-align: left;   */
+}

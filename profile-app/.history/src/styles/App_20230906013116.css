@@ -5,11 +5,12 @@
   border-box: child container border stays within inner border of parent container border at 100%
   content-box: child container border can extend past outer border of parent container border at 100% and the right amount of padding.
    */
-  box-sizing: border-box;
-  overflow: hidden;
+  /* box-sizing: border-box;
+  overflow: hidden; */
 }
 
 .App {
+  /* text-align: center; */
   height: 100vh;
 }
 
@@ -26,8 +27,8 @@
 }
 
 .desc-sub-container > p {
-  /* padding: 1em 0 0 4em;
-  text-align: justify; */
+  padding: 1em 0 0 4em;
+  text-align: justify;
 }
 
 .arrows-sub-container {

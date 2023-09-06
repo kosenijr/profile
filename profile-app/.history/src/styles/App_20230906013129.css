@@ -10,6 +10,7 @@
 }
 
 .App {
+  text-align: center;
   height: 100vh;
 }
 
@@ -26,8 +27,8 @@
 }
 
 .desc-sub-container > p {
-  /* padding: 1em 0 0 4em;
-  text-align: justify; */
+  padding: 1em 0 0 4em;
+  text-align: justify;
 }
 
 .arrows-sub-container {

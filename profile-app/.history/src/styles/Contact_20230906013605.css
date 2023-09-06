@@ -8,9 +8,9 @@
   box-sizing: border-box;
 }
 
-/* .App {
+.App {
   height: 100vh;
-} */
+}
 
 #contact-background {
   background-image: url("../main-pictures/nyc\ background.jpg");

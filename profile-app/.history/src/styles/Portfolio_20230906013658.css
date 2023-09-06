@@ -8,9 +8,9 @@
   box-sizing: border-box;
 }
 
-/* .App {
-  height: 100vh;
-} */
+.App {
+  /* height: 100vh; */
+}
 
 #portfolio-background {
   background-image: url("../main-pictures/the-towers.jpg");
