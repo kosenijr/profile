@@ -1,0 +1,49 @@
+#home-background {
+  background-image: url("../main-pictures/manhattan-bridge.jpg");
+  background-size: cover;
+  /* background-color: black; */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  
+}
+
+.welcome {
+  /* color: black; */
+  font-size: 6em;
+  padding-left: 0.5em;
+}
+
+
+.short-statement {
+  /* color: white;
+   */
+   /* color: black; */
+  line-height: 3;
+  font-size: 1.5rem;
+}
+
+#text-1 {
+  padding-left: 10%;
+  /* color: #4b4d50; */
+  color: black;
+}
+
+
+#text-2 {
+  padding-left: 10%;
+}
+
+
+#text-3 {
+  padding-left: 25%;
+  color: #4b4d50;
+}
+
+#text-4 {
+  padding-left: 45%;
+}

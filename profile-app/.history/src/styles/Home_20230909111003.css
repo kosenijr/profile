@@ -1,0 +1,39 @@
+#home-background {
+  background-image: url("../main-pictures/manhattan-bridge.jpg");
+  background-size: cover;
+  /* background-color: black; */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  
+}
+
+.welcome {
+  font-size: 6em;
+  padding-left: 1em;
+}
+
+
+.short-statement {
+  color: white;
+  line-height: 3;
+  font-size: 1.5rem;
+}
+
+#text-1 {
+  padding-left: 5%;
+}
+
+
+#text-2 {
+  padding-left: 35%;
+}
+
+
+#text-3 {
+  
+}
