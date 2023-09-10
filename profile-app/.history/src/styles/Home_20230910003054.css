@@ -10,7 +10,7 @@
 
 .welcome {
   /* color: black; */
-  font-size: 5em;
+  font-size: 6em;
   padding-left: 0.5em;
   font-family: 'Monserrat';
 }
@@ -18,7 +18,7 @@
 
 .short-statement {
   line-height: 3;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -39,5 +39,5 @@
 }
 
 #text-4 {
-  padding-left: 42%;
+  padding-left: 45%;
 }

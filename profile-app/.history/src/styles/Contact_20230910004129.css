@@ -14,8 +14,6 @@
 
 .contact-title {
   color: white;
-}
-
-.desc-sub-container {
-  padding-left: 5%;  
+  text-align: left;
+  padding-left: 5%;
 }

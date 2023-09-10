@@ -25,14 +25,13 @@
 }
 
 .project-container {
-  height: 10rem;
-  width: 10rem;
+  height: 9rem;
+  width: 9rem;
   background-color: #131311;
   opacity: 0.7;
   border-radius: 30%;
-  margin: 2rem;
+  margin: 2rem 0 2rem 1rem;
   padding: 0 2rem;
-  border: solid 0.4em white;
   cursor: pointer;
 }
 
@@ -42,7 +41,6 @@
 
 .portfolio-desc-sub-container {
   text-align: center;
-  padding-left: 5%;
 }
 
 #to-do-box {
