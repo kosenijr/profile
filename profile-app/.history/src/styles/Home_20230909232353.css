@@ -12,14 +12,13 @@
   /* color: black; */
   font-size: 6em;
   padding-left: 0.5em;
-  font-family: 'Monserrat';
+  font-family: 'Raleway';
 }
 
 
 .short-statement {
   line-height: 3;
   font-size: 1.5rem;
-  font-weight: 600;
 }
 
 #text-1 {
@@ -36,6 +35,8 @@
 #text-3 {
   padding-left: 25%;
   color: #4b4d50;
+  font-family: 'Raleway';
+
 }
 
 #text-4 {

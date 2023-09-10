@@ -16,3 +16,7 @@
   line-height: 1.5;
   padding-left: 5%;
 }
+
+#about-me-div > p {
+  font-weight: 525;
+}

@@ -9,7 +9,7 @@ const About = () => {
   const navigate = useNavigate();
   return (
     <div className="main-container" id="about-background">
-      <div className="desc-sub-container" id="about-me-div">
+      <div className="desc-sub-container" id="my-summary">
         <h1 className="about-me-title">About Me</h1>
         <p>
           What is a graduate of a business school doing with programming skills
@@ -29,7 +29,7 @@ const About = () => {
             became a daily adventure.
         </p>
         
-
+        
         <br />
 
         <p>

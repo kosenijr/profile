@@ -9,7 +9,7 @@ const About = () => {
   const navigate = useNavigate();
   return (
     <div className="main-container" id="about-background">
-      <div className="desc-sub-container" id="about-me-div">
+      <div className="desc-sub-container" id="my-summary">
         <h1 className="about-me-title">About Me</h1>
         <p>
           What is a graduate of a business school doing with programming skills
@@ -18,29 +18,21 @@ const About = () => {
           programming boot camp at Columbia University. It was an opportunity I
           couldn't resist.
         </p>
-        
-        <br />
 
         <p>
           The world of programming was new and exciting to me. I was drawn to
           it, especially after seeing the intriguing curriculum of Baruch's
           Computer Information Systems majors. I enrolled, and alongside a group
           of fellow aspiring programmers, I delved into this world. Learning
-            became a daily adventure.
+          became a daily adventure.
         </p>
-        
-
-        <br />
 
         <p>
           Photography was another passion that emerged. Starting with my
           smartphone, I captured moments that caught my eye. Encouragement from
           my wife pushed me to incorporate my photography into my programming
           work.
-          </p>
-        
-        
-        <br />
+        </p>
 
         <p>
           Now, programming and photography are integral parts of my life. This
@@ -49,7 +41,6 @@ const About = () => {
         </p>
 
         <br />
-        
         <p>Thank you for the support!</p>
       </div>
       <div className="arrows-sub-container">

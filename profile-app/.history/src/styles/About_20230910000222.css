@@ -10,9 +10,8 @@
 
 
 
-#about-me-div {
+#my-summary {
   width: 30%;
   text-align: justify;
-  line-height: 1.5;
-  padding-left: 5%;
+  line-height: 1;
 }
