@@ -15,7 +15,8 @@
 }
 
 form > ul {
-  line-height: 2
+  /* font-weight: 700; */
+
 }
 
 li {
@@ -42,7 +43,6 @@ li {
 input::placeholder {
   color: #4b4d50;
   font-weight: 700;
-  font-size: 1em;
 }
 
 input:focus {
@@ -64,7 +64,6 @@ input {
   overflow: visible;
   padding-bottom: 0.25rem;
   font-weight: 700;
-  font-size: 1em;
 }
 
 form > ul > button {

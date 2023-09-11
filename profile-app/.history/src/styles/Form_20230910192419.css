@@ -1,26 +1,23 @@
 .direct-contact {
   text-align: left;
-  /* padding-left: 1rem; */
-  font-family: "Raleway";
-  font-weight: 700;
-
+  padding-left: 1rem;
 }
 
 .contact-info {
-  color: #4b4d50;
-  font-size: 1em;
-  font-weight: 700;
+  color: yellow;
+  font-size: 13px;
+  font-weight: 500;
   line-height: 2;
-  padding-left: 1%
-}
-
-form > ul {
-  line-height: 2
 }
 
 li {
   line-height: 3;
 }
+
+/* input {
+  position: absolute;
+  visibility: hidden;
+} */
 
 .subtitle {
   font-weight: 700;
@@ -36,18 +33,18 @@ li {
   font-weight: 500;
   opacity: 1;
   transition: all ease-in-out 0.3s;
+  /* color: yellow; */
   overflow: visible;
 }
 
 input::placeholder {
-  color: #4b4d50;
-  font-weight: 700;
-  font-size: 1em;
+  /* color: yellow; */
+  color: 4b4d50;
 }
 
 input:focus {
   outline: none;
-  color: #4b4d50;
+  color: 4b4d50;
 }
 
 input:focus::placeholder {
@@ -59,12 +56,10 @@ input {
   background-color: transparent;
   width: 500px;
   padding: 0 0.25rem;
-  color: #4b4d50;
+  color: 4b4d50;
   outline: none;
   overflow: visible;
   padding-bottom: 0.25rem;
-  font-weight: 700;
-  font-size: 1em;
 }
 
 form > ul > button {
@@ -72,8 +67,6 @@ form > ul > button {
   padding: 0.125rem 0.25rem;
   border: solid;
   border-radius: 15%;
-  color: #4b4d50;
+  color: blue;
   cursor: pointer;
-  font-weight: 700;
-
 }

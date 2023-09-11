@@ -35,14 +35,14 @@ const Form = () => {
   return (
     <div className="direct-contact">
       <div className="call-email-text">
-        <div className="subtitle">EMAIL:</div>
+        <div className="subtitle">EMAIL</div>
         <FaEnvelope /> 
         <a className="contact-info" href="mailto:osenik@outlook.com">
           osenik@outlook.com
         </a>
         <br />
 
-        <div className="subtitle">TEXT:</div>
+        <div className="subtitle">TEXT</div>
         <FaPhoneAlt /> 
         <span className="contact-info">(929) 320-0028</span>
       </div>

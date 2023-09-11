@@ -54,7 +54,7 @@ const Form = () => {
             <div className="subtitle">OR LEAVE A MESSAGE BELOW:</div>
           <ul>
             Hello,
-            <br />I am{" "}
+            <br />I am{" "}.
             <div className="input-wrapper">
               {" "}
               <input
@@ -66,7 +66,7 @@ const Form = () => {
               />
             </div>
             <br />
-            My best contact is{" "}
+            My best contact is{" "}.
             <div className="input-wrapper">
               {" "}
               <input
@@ -78,7 +78,7 @@ const Form = () => {
               />
             </div>
             <br />
-            I'd like to leave{" "}
+            I'd like to leave{" "}.
             <div className="input-wrapper">
               {" "}
               <input
