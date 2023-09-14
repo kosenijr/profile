@@ -36,14 +36,14 @@ const Form = () => {
     <div className="direct-contact">
       <div className="contact-links">
         <div className="float-links float-link-1">
-          <div className="subtitle">Email</div>
+          <div className="subtitle">Email:</div>
           <a className="contact-info" href="mailto:osenik@outlook.com">
             <FaEnvelope className="icons" />
           </a>
         </div>
 
         <div className="float-links float-link-2">
-          <div className="subtitle">GitHub</div>
+          <div className="subtitle">GitHub:</div>
           <a className="contact-info" href="https://github.com/kosenijr">
             <FaGithub className="icons" />
           </a>

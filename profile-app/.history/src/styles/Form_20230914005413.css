@@ -15,7 +15,6 @@
 
 .contact-links {
   width: 20em;
-  text-align: center;
 }
 
 .float-links {
@@ -32,6 +31,7 @@ form > ul {
 
 .icons {
   font-size: 2em;
+  text-align: center;
 }
 
 

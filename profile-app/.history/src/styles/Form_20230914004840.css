@@ -14,12 +14,12 @@
 }
 
 .contact-links {
-  width: 20em;
-  text-align: center;
+  width: 60%;
 }
 
 .float-links {
   float: left;
+  width: 5%;
 }
 
 .float-link-2, float-link-3 {
@@ -33,7 +33,6 @@ form > ul {
 .icons {
   font-size: 2em;
 }
-
 
 .contact-form {
   padding-top: 15vh;
