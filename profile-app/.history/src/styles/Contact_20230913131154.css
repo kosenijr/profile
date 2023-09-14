@@ -1,0 +1,24 @@
+#contact-background {
+  background-image: url("../main-pictures/at-the-park.jpg");
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.body-main {
+  position: relative;
+  background-color: #4b4d50;
+}
+
+.contact-title {
+  color: white;
+  font-family: "Monserrat";
+  padding-bottom: 1em;
+}
+
+.desc-sub-container {
+  padding-left: 5%;
+}

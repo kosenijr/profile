@@ -1,0 +1,78 @@
+.direct-contact {
+  text-align: left;
+  /* padding-left: 1rem; */
+  font-family: "Raleway";
+  font-weight: 700;
+
+}
+
+.contact-info {
+  color: #4b4d50;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 2;
+  padding-left: 1%
+}
+
+form > ul {
+  line-height: 2
+}
+
+li {
+  line-height: 3;
+}
+
+.subtitle {
+  font-weight: 700;
+  line-height: 2;
+}
+
+.input-wrapper {
+  display: inline-block;
+  position: relative;
+  max-width: 500px;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+  overflow: visible;
+}
+
+input::placeholder {
+color: white;  font-weight: 700;
+  font-size: 1em;
+}
+
+input:focus {
+  outline: none;
+  color: rgb(255,215,0);
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input {
+  border: 0;
+  background-color: transparent;
+  width: 500px;
+  padding: 0 0.25rem;
+  color: #4b4d50;
+  outline: none;
+  overflow: visible;
+  padding-bottom: 0.25rem;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+form > ul > button {
+  background-color: white;
+  padding: 0.125rem 0.25rem;
+  border: solid;
+  border-radius: 15%;
+  color: #4b4d50;
+  cursor: pointer;
+  font-weight: 700;
+
+}
