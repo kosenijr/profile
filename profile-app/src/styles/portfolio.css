@@ -1,5 +1,6 @@
 #portfolio-background {
-  background-image: url("../main-pictures/the-towers.jpg");
+  background-image: url("../main-pictures/interborough-bridge.jpg");
+  /* background-image: url("../main-pictures/at-the-park.jpg"); */
   background-size: cover;
   background-color: black;
   background-position: center;

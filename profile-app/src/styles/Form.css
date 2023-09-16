@@ -10,20 +10,7 @@
   font-size: 1em;
   font-weight: 700;
   line-height: 2;
-  padding-left: 1%;
-}
-
-.contact-links {
-  width: 20em;
-  text-align: center;
-}
-
-.float-links {
-  float: left;
-}
-
-.float-link-2, float-link-3 {
-  margin: 0 3em;
+  /* padding-left: 1%; */
 }
 
 form > ul {
@@ -36,7 +23,7 @@ form > ul {
 
 
 .contact-form {
-  padding-top: 15vh;
+  padding-top: 5vh;
 }
 
 li {

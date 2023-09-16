@@ -19,12 +19,6 @@ const Portfolio = () => {
             <div className="desc-sub-container portfolio-desc-sub-container">
                 <h1 className='portfolio-title'>Portfolio</h1>
                 <div className="portfolio-container">
-                    <div className="project-container" id='to-do-box' onClick={() => toDoGitHub()}>
-                        <h5 className="project-container-text">To-Do App</h5>
-                    </div>
-                    <div className="project-container" id='triage-box' onClick={() => triageGitHub()}>
-                        <h5 className="project-container-text" >Triage App</h5>
-                    </div>
                 </div>
 
             </div>
@@ -32,6 +26,12 @@ const Portfolio = () => {
                 <FaArrowCircleLeft className='arrows' onClick={() => navigate('/about')} /><FaArrowCircleRight className='arrows' onClick={() => navigate('/contact')} />
 
             </div>
+            <div className="project-container" id='to-do-box' onClick={() => toDoGitHub()}>
+                        <h5 className="project-container-text">To-Do App</h5>
+                    </div>
+                    <div className="project-container" id='triage-box' onClick={() => triageGitHub()}>
+                        <h5 className="project-container-text" >Triage App</h5>
+                    </div>
         </div>
     )
 }
