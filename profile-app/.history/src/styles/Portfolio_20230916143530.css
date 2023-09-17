@@ -1,0 +1,59 @@
+#portfolio-background {
+  background-image: url("../main-pictures/interborough-bridge.jpg");
+  /* background-image: url("../main-pictures/at-the-park.jpg"); */
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.body-main {
+  position: relative;
+}
+
+.portfolio-title {
+  color: white;
+  font-family: "Monserrat";
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: left;
+  opacity: 0.9;
+  padding-top: 3rem;
+}
+
+.project-container {
+  height: 10rem;
+  width: 10rem;
+  background-color: #131311;
+  opacity: 0.7;
+  border-radius: 30%;
+  margin: 2rem;
+  padding: 0 2rem;
+  border: solid 0.4em white;
+  cursor: pointer;
+}
+
+.project-container:hover {
+  opacity: 1;
+}
+
+.portfolio-desc-sub-container {
+  text-align: right;
+  padding-left: 5%;
+}
+
+#to-do-box {
+  background-image: url("../main-pictures/to-do-app.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#triage-box {
+  background-image: url("../main-pictures/mt-sinai-app.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
