@@ -22,7 +22,7 @@ float-link-1 {
 }
 
 float-link-2, float-link-3 {
-  float: right;
+  float: right;;
   width: 30%;
 }
 

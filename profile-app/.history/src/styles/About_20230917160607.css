@@ -32,6 +32,6 @@ float: left;
 
 .second-group {
 width: 45%;
-margin: 0 5%;
+/* margin: 0 5%; */
 float: right;
 }

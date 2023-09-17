@@ -11,7 +11,7 @@
   line-height: 2;
 }
 
-.contact-links {
+/* .contact-links {
   text-align: center;
   width: 100%;
 }
@@ -21,10 +21,10 @@ float-link-1 {
   width: 30%;
 }
 
-float-link-2, float-link-3 {
+float-link-2, float-link3 {
   float: right;
   width: 30%;
-}
+} */
 
 .contact-form {
 padding-top: 5vh;

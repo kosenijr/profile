@@ -22,16 +22,15 @@
 
 .about-me-summary {
 width: 100%;
-padding-top: 3vh;
 }
 
 .first-group {
-width: 45%;
+width: 40%;
 float: left;
 }
 
 .second-group {
-width: 45%;
+width: 40%;
 margin: 0 5%;
 float: right;
 }

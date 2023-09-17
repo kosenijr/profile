@@ -32,6 +32,8 @@ const About = () => {
             </p>
           </div>
 
+          <br />
+          
           <div className="second-group">
             <p>
               Photography was another passion that emerged. Starting with my
