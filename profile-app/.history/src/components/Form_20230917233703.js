@@ -37,7 +37,7 @@ const Form = () => {
       <div className="subtitle subtitle-1">Email or follow me on social media:</div>
       <div className="contact-links">
         <div className="float-links float-link-1">
-          <div className="subtitle">Email</div>
+          <div className="subtitle">Email2</div>
           <a
             className="contact-info"
             target="_blank"

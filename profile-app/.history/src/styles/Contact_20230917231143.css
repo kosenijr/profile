@@ -12,12 +12,14 @@
   position: relative;
 }
 
+
 .desc-sub-container {
-  /* padding-left: 5%; */
+  padding-left: 5%;
 }
 
 .contact-title {
   color: white;
   font-family: "Monserrat";
+  padding-bottom: 1em;
   text-align: center;
 }

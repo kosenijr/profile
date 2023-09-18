@@ -1,5 +1,5 @@
 .direct-contact {
-  /* text-align: left; */
+  text-align: left;
   font-family: "Raleway";
   font-weight: 700;
   margin-top: 5vh;
@@ -12,25 +12,23 @@
   line-height: 2;
 }
 
-.contact-links {
-  text-align: center;
+.float-links {
+  /* text-align: center; */
   width: 100%;
-  margin-left: 80vh;
 }
 
-.float-link-1 {
+float-link-1 {
   float: left;
-  width: 5%;
+  width: 20%;
 }
 
-.float-link-2, .float-link-3 {
-  float: left;
-  width: 5%;
+float-link-2, float-link-3 {
+  float: right;
+  width: 20%;
 }
 
 .contact-form {
 padding-top: 5vh;
-margin-left: 80vh;
 }
 
 form > ul {
@@ -48,10 +46,6 @@ li {
 .subtitle {
   font-weight: 700;
   line-height: 2;
-}
-
-.subtitle-1 {
-  text-align: center;
 }
 
 .contact-form ul {

@@ -34,10 +34,10 @@ const Form = () => {
 
   return (
     <div className="direct-contact">
-      <div className="subtitle subtitle-1">Email or follow me on social media:</div>
+      <div className="subtitle">Email or follow me on social media:</div>
       <div className="contact-links">
         <div className="float-links float-link-1">
-          <div className="subtitle">Email</div>
+          <div className="subtitle">Email2</div>
           <a
             className="contact-info"
             target="_blank"
@@ -75,7 +75,7 @@ const Form = () => {
 
       <div className="contact-form">
         <form>
-          <div className="subtitle subtitle-2">Or leave a message below:</div>
+          <div className="subtitle">Leave a message below:</div>
           <ul>
             Hello,
             <br />I am{" "}

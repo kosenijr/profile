@@ -15,22 +15,22 @@
 .contact-links {
   text-align: center;
   width: 100%;
-  margin-left: 80vh;
+  margin-left: 35vh
 }
 
 .float-link-1 {
   float: left;
-  width: 5%;
+  width: 10%;
 }
 
 .float-link-2, .float-link-3 {
   float: left;
-  width: 5%;
+  width: 10%;
 }
 
 .contact-form {
 padding-top: 5vh;
-margin-left: 80vh;
+margin-left: 39vw;
 }
 
 form > ul {
@@ -48,10 +48,6 @@ li {
 .subtitle {
   font-weight: 700;
   line-height: 2;
-}
-
-.subtitle-1 {
-  text-align: center;
 }
 
 .contact-form ul {
