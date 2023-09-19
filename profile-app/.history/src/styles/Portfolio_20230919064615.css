@@ -21,7 +21,7 @@
 
 .portfolio-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   opacity: 0.9;
   padding-top: 1rem;
 }

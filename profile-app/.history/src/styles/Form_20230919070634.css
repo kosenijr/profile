@@ -2,7 +2,6 @@
   font-family: "Raleway";
   font-weight: 700;
   margin-top: 5vh;
-  align-items: center;
 }
 
 .contact-info {
@@ -13,8 +12,7 @@
 }
 
 .contact-form {
-padding: 5vh 0 0 45vw;
-text-align: justify;
+padding-top: 5vh;
 }
 
 form > ul {
@@ -32,6 +30,10 @@ li {
 .subtitle {
   font-weight: 700;
   line-height: 2;
+}
+
+.subtitle-1 {
+  text-align: center;
 }
 
 .contact-form ul {
@@ -67,7 +69,7 @@ input:focus::placeholder {
 input {
   border: 0;
   background-color: transparent;
-  padding: 0 0.25rem;
+  /* padding: 0 0.25rem; */
   color: white;
   outline: none;
   overflow: visible;
