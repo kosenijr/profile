@@ -1,0 +1,24 @@
+#home-background {
+  background-image: url("../main-pictures/manhattan-bridge.jpg");
+  background-size: cover;
+  /* background-color: black; */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.welcome {
+  text-align: center;
+  font-family: 'Monserrat';
+  margin-bottom: 5vh;
+}
+
+
+.short-statement {
+  line-height: 2;
+  /* font-size: 1em; */
+  font-weight: 500;
+  text-align: center;
+}
+
