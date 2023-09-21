@@ -4,7 +4,7 @@
 
 //require the express package and store the function within the app variable
 const express = require("express");
-const [app, port] = [express(), 5000];
+const [app, port] = [express(), 3000];
 // require cors
 const cors = require("cors");
 
