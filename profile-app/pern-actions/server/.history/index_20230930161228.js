@@ -1,7 +1,6 @@
 // express creates the server
 // pg connects database to server
 // cors allows for two domains (or more) to talk to each other
-// using async/await
 
 //require the express package and store the function within the app variable
 const express = require("express");
@@ -42,35 +41,15 @@ app.post("/info", async (req, res) => {
   }
 });
 
-// get all the info: read general
-app.get("/info", async (req, res) => {
-  try {
-    const allInfo = await pool.query("SELECT * FROM userinfo");
-    res.json(allInfo.rows);
-  } catch (err) {
-    console.error(err.message);
-  }
-});
-
-// get a piece of info: read specific
-// include id #
-app.get("/info/:id", async (req, res) => {
-  try {
-    // console.log(req);
-    // console.log(req.params);
-    // destructuring assignment: extract id and make it retain its value as a variable;
-    const { id } = req.params;
-    console.log(id);
-    // use await because the query might take some time.
-    const info = await pool.query("SELECT * FROM userinfo WHERE user_id = $1", [
-      id,
-    ]);
-    res.json(info.rows[0]);
-  } catch (err) {
-    console.error(err.message);
-  }
-});
-
+// get a piece of info: read
+app.get("/info", async(req, res) => {
+    try {
+        const allInfo = await pool.query("SELECT * FROM userinfo");
+        res.json(allInfo.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+})
 // update a piece of info: update
 
 // delete a piece of info: delete

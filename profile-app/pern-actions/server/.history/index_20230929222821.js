@@ -1,7 +1,6 @@
 // express creates the server
 // pg connects database to server
 // cors allows for two domains (or more) to talk to each other
-// using async/await
 
 //require the express package and store the function within the app variable
 const express = require("express");
@@ -28,13 +27,13 @@ app.post("/info", async (req, res) => {
     }
     // to run new querys, use INSERT INTO command
     const newInfo = await pool.query(
-      "INSERT INTO userinfo (name, contact, message) VALUES ($1, $2, $3) RETURNING *",
+      "INSERT INTO userinfo (name, contact, message) VALUES ($1, $2, $3)",
       [name, contact, message]
     );
     // confirm success
-    // res.status(200).json({ success: "Data inserted successfully" });
+    res.status(200).json({ success: "Data inserted successfully" });
 
-    res.json(newInfo.rows[0]);
+    // res.json(newInfo);
   } catch (err) {
     console.error(err.message);
     res.status(500).json({ error: "Internal server error" });
@@ -42,34 +41,7 @@ app.post("/info", async (req, res) => {
   }
 });
 
-// get all the info: read general
-app.get("/info", async (req, res) => {
-  try {
-    const allInfo = await pool.query("SELECT * FROM userinfo");
-    res.json(allInfo.rows);
-  } catch (err) {
-    console.error(err.message);
-  }
-});
-
-// get a piece of info: read specific
-// include id #
-app.get("/info/:id", async (req, res) => {
-  try {
-    // console.log(req);
-    // console.log(req.params);
-    // destructuring assignment: extract id and make it retain its value as a variable;
-    const { id } = req.params;
-    console.log(id);
-    // use await because the query might take some time.
-    const info = await pool.query("SELECT * FROM userinfo WHERE user_id = $1", [
-      id,
-    ]);
-    res.json(info.rows[0]);
-  } catch (err) {
-    console.error(err.message);
-  }
-});
+// get a piece of info: read
 
 // update a piece of info: update
 

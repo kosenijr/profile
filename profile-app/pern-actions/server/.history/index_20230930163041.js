@@ -58,9 +58,7 @@ app.get("/info/:id", async (req, res) => {
   try {
     // console.log(req);
     // console.log(req.params);
-    // destructuring assignment: extract id and make it retain its value as a variable;
     const { id } = req.params;
-    console.log(id);
     // use await because the query might take some time.
     const info = await pool.query("SELECT * FROM userinfo WHERE user_id = $1", [
       id,
