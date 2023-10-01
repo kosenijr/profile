@@ -90,11 +90,11 @@ app.put("/info/:id", async (req, res) => {
 });
 
 // delete a piece of info: delete
-app.delete("/info/:id", async (req, res) => {
+app.delete("/info/:id", async (res, req) => {
   try {
-    const {id} = req.params;
+    const { id } = req.params;
     const deleteInfo = await pool.query(
-      "DELETE FROM userinfo WHERE user_id = $1",
+      "DELETE * from userinfo WHERE user_id = $1",
       [id]
     );
     res.json("Info was deleted.");

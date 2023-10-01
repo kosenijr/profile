@@ -46,9 +46,7 @@ app.post("/info", async (req, res) => {
 // get all the info: read general
 app.get("/info", async (req, res) => {
   try {
-    const allInfo = await pool.query(
-      "SELECT * FROM userinfo ORDER BY user_id ASC"
-    );
+    const allInfo = await pool.query("SELECT * FROM userinfo");
     res.json(allInfo.rows);
   } catch (err) {
     console.error(err.message);
@@ -76,13 +74,10 @@ app.get("/info/:id", async (req, res) => {
 
 // update a piece of info: update
 app.put("/info/:id", async (req, res) => {
-  try {
-    const { id } = req.params;
-    const { name, contact, message } = req.body;
-    const updateInfo = await pool.query(
-      "UPDATE userinfo SET name = $1, contact = $2, message = $3 WHERE user_id = $4",
-      [name, contact, message, id]
-    );
+    try {
+      log(req.params, req.body);
+    const [{ id }, { description }] = [req.params, req.body];
+    const updateInfo = await pool.query("UPDATE userinfo SET description = $1 WHERE user_id = $2", [description, id]);
     res.json("Info was updated!");
   } catch (err) {
     console.error(err.message);
@@ -90,18 +85,6 @@ app.put("/info/:id", async (req, res) => {
 });
 
 // delete a piece of info: delete
-app.delete("/info/:id", async (req, res) => {
-  try {
-    const {id} = req.params;
-    const deleteInfo = await pool.query(
-      "DELETE FROM userinfo WHERE user_id = $1",
-      [id]
-    );
-    res.json("Info was deleted.");
-  } catch (err) {
-    console.error(err.message);
-  }
-});
 
 // set express to listen at Port 5000
 app.listen(port, () => {
