@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import "../styles/Form.css";
 
-const log = console.log;
-
 const Form = () => {
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
@@ -24,21 +22,7 @@ const Form = () => {
 
   const handleSubmit = async e => {
     e.preventDefault();
-    // encompass all state within a variable
-    const body = {name, contact, message};
-    // use fetch
-    const response = fetch("http://localhost:5000/info", {
-      // chose the method (i.e. GET, POST, UPDATE, DELETE)
-      method: "POST",
-      // set headers to json: content-type is capitalized; application/json is lowercase.
-      headers: {"Content-Type": "application/json"},
-      // package all state through stringify
-      body: JSON.stringify(body)
-    });
-
-    log(response);
-
-    // alert("Your message was submitted!");
+    alert("Your form was submitted!");
     try {
       
     } catch (err) {
@@ -96,7 +80,7 @@ const Form = () => {
       </div>
 
       <div className="contact-form">
-        <form onHandleSubmit={handleSubmit}>
+        <form>
           <div className="subtitle subtitle-2">Or leave a message below:</div>
           <ul>
             Hello,

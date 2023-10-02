@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import "../styles/Form.css";
 
-const log = console.log;
-
 const Form = () => {
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
@@ -38,7 +36,7 @@ const Form = () => {
 
     log(response);
 
-    // alert("Your message was submitted!");
+    alert("Your form was submitted!");
     try {
       
     } catch (err) {
@@ -96,7 +94,7 @@ const Form = () => {
       </div>
 
       <div className="contact-form">
-        <form onHandleSubmit={handleSubmit}>
+        <form>
           <div className="subtitle subtitle-2">Or leave a message below:</div>
           <ul>
             Hello,

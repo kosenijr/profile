@@ -38,7 +38,7 @@ const Form = () => {
 
     log(response);
 
-    // alert("Your message was submitted!");
+    alert("Your form was submitted!");
     try {
       
     } catch (err) {
