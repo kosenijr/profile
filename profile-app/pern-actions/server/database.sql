@@ -7,3 +7,12 @@ CREATE TABLE userinfo(
     contact VARCHAR(255) NOT NULL,
     message TEXT NOT NULL
 );
+
+SELECT MAX(user_id) FROM userinfo;
+
+DO $$ 
+BEGIN
+    IF (SELECT MAX(user_id) FROM userinfo) IS NULL THEN
+        ALTER SEQUENCE userinfo_user_id_seq RESTART WITH 1;
+    END IF;
+END $$;
