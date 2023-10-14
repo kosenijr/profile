@@ -6,22 +6,46 @@
 
 //require the express package and store the function within the app variable
 const express = require("express");
-let [app, log, port] = [express(), console.log, 5000];
+const [app, log, port] = [express(), console.log, 5000];
 // require cors
 const cors = require("cors");
 const pool = require("./db");
+const nodemailer = require("nodemailer");
+require("dotenv").config(); // use env
+
+// set up nodemailer and store
+const transporter = nodemailer.createTransport({
+  host: "smtp.office365.com",
+  port: 587,
+  secure: false, // for STARTTLS
+  auth: {
+    user: process.env.OUTLOOK_USER,
+    pass: process.env.OUTLOOK_PASS,
+  },
+});
 
 // set up middleware: must be placed before routes.
 app.use(cors());
 app.use(express.json()); // req.body
 
 // routes: async requests
-
 // create a piece of info: create
 app.post("/info", async (req, res) => {
   try {
     // log(req.body);
     const { name, contact, message } = req.body;
+
+    // set up mailing options
+    const mailOptions = {
+      from: process.env.OUTLOOK_USER,
+      to: process.env.OUTLOOK_USER,
+      subject: "New Message from Your Website!",
+      text: `Name: \n ${name} \n Contact: \n ${contact} \n Message: \n ${message}`,
+    };
+
+    // ensure the right conditions for sending mail
+    const info = await transporter.sendMail(mailOptions);
+    log(`Email sent: ${info.response}`);
 
     // ensure the validity and provision of each parameter.
     if (!name || !contact || !message) {
@@ -92,7 +116,7 @@ app.put("/info/:id", async (req, res) => {
 // delete a piece of info: delete
 app.delete("/info/:id", async (req, res) => {
   try {
-    const {id} = req.params;
+    const { id } = req.params;
     const deleteInfo = await pool.query(
       "DELETE FROM userinfo WHERE user_id = $1",
       [id]
