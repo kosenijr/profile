@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* working on the Navbar itself through a self-entitled class name */
+.Navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: White;
+  opacity: 0.8; 
+  
+  /* @media (min-width: 320px) and (max-width: 500px) {
+    justify-content: center;
+  } */
+}
+  
+.image-div {
+  padding: 0 10em;
+  
+  /* @media (min-width: 320px) and (max-width: 500px) {
+  padding: 0;
+  } */
+}
+
+#living-water {
+  width: 5vw;
+  display: block;
+
+  /* @media(max-width: 500px) {
+    width: 12vh;
+  } */
+}
+
+
+.nav-items {
+  padding-right: 25em;
+
+  /* @media (min-width: 320px) and (max-width: 500px) {
+   padding: 0;
+  } */
+}
+
+/* handle div with link items */
+.Navbar > .nav-items > a {
+  color: #4b4d50;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 750;
+  font-family: "Montserrat";
+  margin-right: 5em;
+  position: relative;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
+/* change opacity of link items when hovered upon */
+.Navbar > .nav-items > a:hover {
+  opacity: 1;
+  color: skyblue;
+}
+
+.Navbar > .nav-items > a:hover::before {
+  width: 100%;
+}
+
+.menu, .exit {
+  height: 1em;
+  font-size:1em;
+  padding-left: 10em;
+}
