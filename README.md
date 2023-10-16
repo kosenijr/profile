@@ -1,2 +1,2 @@
 # profile
-I will be building a professional profile for future opportunities through the learnt fundamental principles of the practice-react collaboration with Paul.
+I will be building a professional profile to display my portfolio of projects and my love for photography.
