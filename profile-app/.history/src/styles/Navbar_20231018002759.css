@@ -57,6 +57,7 @@
 @media (max-width: 125px) {
   .Navbar {
     display: none;
+    
   }
 
   .Navbar > .nav-items > a {
@@ -90,6 +91,7 @@
 @media (min-width: 125px) and (max-width: 157px) {
   .Navbar {
     display: flex;
+    
   }
 
   .Navbar > .nav-items > a {
@@ -126,6 +128,7 @@
 @media (min-width: 157px) and (max-width: 267px) {
   .Navbar {
     display: flex;
+    
   }
 
   .Navbar > .nav-items > a {
@@ -150,19 +153,21 @@
     font-size: 2em;
     align-items: right;
     padding-left: 1em;
-    /* display: menuOpen; */
+    display: menuOpen;
   }
 
   .exit {
     height: 1em;
     font-size: 2em;
-    /* display: cancelOn; */
+    display: cancelOn;
   }
 }
+
 
 @media (min-width: 267px) and (max-width: 1340px) {
   .Navbar {
     display: flex;
+    
   }
 
   .Navbar > .nav-items > a {
@@ -188,6 +193,7 @@
     align-items: right;
     padding-left: 5em;
     /* display: block; */
+  
   }
 
   .exit {
@@ -197,9 +203,3 @@
     /* display: none; */
   }
 }
-
-/*
-- work on transition of menu to cancel
-- set up menu and menu cancellation (use opacity)
-- remove menu and cancel icons after the width of 1340px
- */

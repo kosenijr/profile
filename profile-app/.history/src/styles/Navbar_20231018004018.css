@@ -198,8 +198,8 @@
   }
 }
 
-/*
-- work on transition of menu to cancel
-- set up menu and menu cancellation (use opacity)
-- remove menu and cancel icons after the width of 1340px
- */
+@media (min-width: 1340px) {
+  .menu{
+    display: none;
+  }
+}

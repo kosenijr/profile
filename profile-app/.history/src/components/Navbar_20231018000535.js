@@ -15,13 +15,13 @@ const Navbar = () => {
   // handles
   const handleMenu = () => {
     console.log("Menu is clicked!");
-    setMenuOpen(false);
+    setMenuOpen(true);
     setCancelOn(true);
   };
 
   const handleEx = () => {
     console.log("Ex is clicked!");
-    setMenuOpen(true);
+    setMenuOpen(false);
     setCancelOn(false);
   };
 
@@ -40,19 +40,11 @@ const Navbar = () => {
         <a href="/contact">Contact</a>
       </div>
 
-      <div
-        className="menu"
-        onClick={handleMenu}
-        style={{ display: menuOpen ? "block" : "none" }}
-      >
+      <div className="menu" onClick={handleMenu} style={{display: menuOpen ? "block" : "none"}}>
         <FaBars />
       </div>
 
-      <div
-        className="exit"
-        onClick={handleEx}
-        style={{ display: cancelOn ? "block" : "none" }}
-      >
+      <div className="exit" onClick={handleEx} style={{display: cancelOn? "block" : "none"}}>
         <FaTimes />
       </div>
     </div>

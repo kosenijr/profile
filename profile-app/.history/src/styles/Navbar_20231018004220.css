@@ -44,13 +44,13 @@
   width: 100%;
 }
 
-.menu {
+/* .menu {
   display: none;
 }
 
 .exit {
   display: none;
-}
+} */
 
 /* media queries */
 
@@ -196,10 +196,5 @@
     padding-left: 6em;
     /* display: none; */
   }
-}
 
-/*
-- work on transition of menu to cancel
-- set up menu and menu cancellation (use opacity)
-- remove menu and cancel icons after the width of 1340px
- */
+}

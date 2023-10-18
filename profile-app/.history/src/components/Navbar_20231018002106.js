@@ -40,19 +40,11 @@ const Navbar = () => {
         <a href="/contact">Contact</a>
       </div>
 
-      <div
-        className="menu"
-        onClick={handleMenu}
-        style={{ display: menuOpen ? "block" : "none" }}
-      >
+      <div className="menu" onClick={handleMenu} style={{display: menuOpen ? "block" : "none"}}>
         <FaBars />
       </div>
 
-      <div
-        className="exit"
-        onClick={handleEx}
-        style={{ display: cancelOn ? "block" : "none" }}
-      >
+      <div className="exit" onClick={handleEx} style={{display: cancelOn? "block" : "none"}}>
         <FaTimes />
       </div>
     </div>

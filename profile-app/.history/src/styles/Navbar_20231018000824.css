@@ -54,9 +54,10 @@
 
 /* media queries */
 
-@media (max-width: 125px) {
+@media (max-width: 120px) {
   .Navbar {
-    display: none;
+    display: flex;
+    
   }
 
   .Navbar > .nav-items > a {
@@ -77,19 +78,21 @@
   }
 
   .menu {
-    display: menuOpen;
+    display: none;
   }
 
   .exit {
     height: 1em;
     font-size: 2em;
-    display: cancelOn;
+    /* padding-left: 6em; */
+    display: none;
   }
 }
 
-@media (min-width: 125px) and (max-width: 157px) {
+@media (min-width: 125px) and (max-width: 140px) {
   .Navbar {
     display: flex;
+    
   }
 
   .Navbar > .nav-items > a {
@@ -112,20 +115,22 @@
   .menu {
     height: 1em;
     font-size: 2em;
+    display: block;
     align-items: right;
-    display: menuOpen;
   }
 
   .exit {
     height: 1em;
     font-size: 2em;
-    display: cancelOn;
+    /* padding-left: 6em; */
+    display: none;
   }
 }
 
-@media (min-width: 157px) and (max-width: 267px) {
+@media (min-width: 140px) and (max-width: 267px) {
   .Navbar {
     display: flex;
+    
   }
 
   .Navbar > .nav-items > a {
@@ -148,21 +153,24 @@
   .menu {
     height: 1em;
     font-size: 2em;
+    display: block;
     align-items: right;
     padding-left: 1em;
-    /* display: menuOpen; */
   }
 
   .exit {
     height: 1em;
     font-size: 2em;
-    /* display: cancelOn; */
+    /* padding-left: 6em; */
+    display: none;
   }
 }
+
 
 @media (min-width: 267px) and (max-width: 1340px) {
   .Navbar {
     display: flex;
+    
   }
 
   .Navbar > .nav-items > a {
@@ -185,21 +193,16 @@
   .menu {
     height: 1em;
     font-size: 2em;
+    display: block;
     align-items: right;
     padding-left: 5em;
-    /* display: block; */
+  
   }
 
   .exit {
     height: 1em;
     font-size: 2em;
     padding-left: 6em;
-    /* display: none; */
+    display: none;
   }
 }
-
-/*
-- work on transition of menu to cancel
-- set up menu and menu cancellation (use opacity)
-- remove menu and cancel icons after the width of 1340px
- */

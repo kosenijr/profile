@@ -9,20 +9,20 @@ import { FaBars, FaTimes } from "react-icons/fa";
 // functions
 const Navbar = () => {
   // state hooks
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [cancelOn, setCancelOn] = useState(false);
 
   // handles
   const handleMenu = () => {
     console.log("Menu is clicked!");
-    setMenuOpen(false);
+    setMenuOpen(true);
     setCancelOn(true);
   };
 
   const handleEx = () => {
     console.log("Ex is clicked!");
     setMenuOpen(true);
-    setCancelOn(false);
+    setCancelOn(true);
   };
 
   return (
@@ -40,19 +40,11 @@ const Navbar = () => {
         <a href="/contact">Contact</a>
       </div>
 
-      <div
-        className="menu"
-        onClick={handleMenu}
-        style={{ display: menuOpen ? "block" : "none" }}
-      >
+      <div className="menu" onClick={handleMenu}>
         <FaBars />
       </div>
 
-      <div
-        className="exit"
-        onClick={handleEx}
-        style={{ display: cancelOn ? "block" : "none" }}
-      >
+      <div className="exit" onClick={handleEx}>
         <FaTimes />
       </div>
     </div>
