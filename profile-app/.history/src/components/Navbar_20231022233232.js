@@ -6,6 +6,7 @@ import img from "../main-pictures/living-waters-1.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import NavItems from "../components/NavItems"
 
+console.log(document);
 
 // functions
 const Navbar = () => {
@@ -14,12 +15,12 @@ const Navbar = () => {
   const [cancelOn, setCancelOn] = useState(false); // ex functionality
 
   // Effect
-  // useEffect() => {
-  //   // set up submenu
-  //   const subMenuSetUp = () => {
+  useEffect() => {
+    // set up submenu
+    const subMenuSetUp = () => {
 
-  //   }
-  // }
+    }
+  }
 
   // handles
   const handleMenuFunction = () => {
@@ -42,7 +43,14 @@ const Navbar = () => {
       </div>
 
       {/* set up nav-items and 4 a tags: i.e., home, contact */}
-      <NavItems />
+      {/* <div className="inner-nav nav-items">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/contact">Contact</a>
+      </div> */}
+
+      <NavItems className="inner-nav nav-items" />
 
       <div className="menu-exit-options">
         <div

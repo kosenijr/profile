@@ -6,6 +6,7 @@ import img from "../main-pictures/living-waters-1.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import NavItems from "../components/NavItems"
 
+console.log(document);
 
 // functions
 const Navbar = () => {

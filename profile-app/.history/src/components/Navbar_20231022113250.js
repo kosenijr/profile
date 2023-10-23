@@ -1,27 +1,24 @@
 // imports
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 // must import pertinent css
 import "../styles/Navbar.css";
 import img from "../main-pictures/living-waters-1.png";
 import { FaBars, FaTimes } from "react-icons/fa";
-import NavItems from "../components/NavItems"
 
+console.log(document);
 
 // functions
 const Navbar = () => {
   // state hooks
-  const [menuOpen, setMenuOpen] = useState(true); // menu functionality
+  const [menu, setMenu] = useState(false); // menu will appear
+  const [menuOpen, setMenuOpen] = useState(false); // menu functionality
   const [cancelOn, setCancelOn] = useState(false); // ex functionality
 
-  // Effect
-  // useEffect() => {
-  //   // set up submenu
-  //   const subMenuSetUp = () => {
-
-  //   }
-  // }
-
   // handles
+  const handleMenu = () => {
+    setMenu(true);
+  }
+
   const handleMenuFunction = () => {
     console.log("Menu is clicked!");
     setMenuOpen(false);
@@ -42,9 +39,14 @@ const Navbar = () => {
       </div>
 
       {/* set up nav-items and 4 a tags: i.e., home, contact */}
-      <NavItems />
+      <div className="inner-nav nav-items">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/contact">Contact</a>
+      </div>
 
-      <div className="menu-exit-options">
+      <div className="menu-exit-options" onChange={handleMenu} style={{display: menu ? "block" : "none"}}>
         <div
           className="menu"
           onClick={handleMenuFunction}

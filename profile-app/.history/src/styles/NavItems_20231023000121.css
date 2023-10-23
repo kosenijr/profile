@@ -1,0 +1,24 @@
+.nav-items {
+    padding-right: 25em;
+  }
+  
+  /* handle div with link items */
+  .Navbar > .nav-items > a {
+    color: #4b4d50;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 750;
+    font-family: "Montserrat";
+    margin-right: 5em;
+    position: relative;
+  }
+  
+  /* change opacity of link items when hovered upon */
+  .Navbar > .nav-items > a:hover {
+    opacity: 1;
+    color: skyblue;
+  }
+  
+  .Navbar > .nav-items > a:hover::before {
+    width: 100%;
+  }

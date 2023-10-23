@@ -11,12 +11,37 @@
 }
 
 .image-div {
-  padding: 0;
+  padding: 0 10em;
 }
 
 #living-water {
   width: 5vw;
   display: block;
+}
+
+.nav-items {
+  padding-right: 25em;
+}
+
+/* handle div with link items */
+.nav-items {
+  color: #4b4d50;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 750;
+  font-family: "Montserrat";
+  margin-right: 5em;
+  position: relative;
+}
+
+/* change opacity of link items when hovered upon */
+.Navbar > .nav-items > a:hover {
+  opacity: 1;
+  color: skyblue;
+}
+
+.Navbar > .nav-items > a:hover::before {
+  width: 100%;
 }
 
 .menu-exit-options {
@@ -99,7 +124,6 @@
     height: 1em;
     font-size: 2em;
     display: none;
-
   }
 }
 

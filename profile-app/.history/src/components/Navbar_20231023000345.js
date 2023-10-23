@@ -4,8 +4,9 @@ import React, { useState, useEffect } from "react";
 import "../styles/Navbar.css";
 import img from "../main-pictures/living-waters-1.png";
 import { FaBars, FaTimes } from "react-icons/fa";
-import NavItems from "../components/NavItems"
+import NavItems from "../components/NavItems";
 
+console.log(document);
 
 // functions
 const Navbar = () => {
@@ -41,7 +42,6 @@ const Navbar = () => {
         <img src={img} alt="logo" className="nav-spacing" id="living-water" />
       </div>
 
-      {/* set up nav-items and 4 a tags: i.e., home, contact */}
       <NavItems />
 
       <div className="menu-exit-options">
