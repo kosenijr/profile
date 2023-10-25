@@ -9,12 +9,14 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import PageNotFound from "./components/PageNotFound";
+import Overlay from "./components/Overlay";
 
 // App
 function App() {
   return (
     <div>
       <div className="App">
+        {/* <Overlay> */}
         <Router>
           <Navbar />
           <Routes>
@@ -25,6 +27,7 @@ function App() {
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Router>
+        {/* </Overlay> */}
       </div>
     </div>
   );

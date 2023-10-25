@@ -1,5 +1,5 @@
 // imports
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/App.css";
 import "../styles/Home.css";
@@ -11,21 +11,17 @@ const Home = () => {
   return (
     <div id="home-background">
       <div className="desc-sub-container home-desc-sub-container">
-        <h1 className="welcome">Welcome!</h1>
+        <h1>Welcome!</h1>
         <div className="short-statement">
           <p className="front-text" id="text-1">
-            My name is Kayode.
+            My name is Kayode (Kah-yoh-deh). I am a front-end developer and
+            photographer.
           </p>
-
           <p className="front-text" id="text-2">
-            I am a front-end developer and photographer.
-          </p>
-
-          <p className="front-text" id="text-3">
             I'd like to show you a few things...
           </p>
-
-          <p className="front-text" id="text-4">
+          <br />
+          <p className="front-text" id="text-3">
             C'mon!
           </p>
         </div>
