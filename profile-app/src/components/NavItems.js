@@ -1,5 +1,6 @@
 // imports
-import "../styles/NavItems.css"
+import React, { useState } from "react";
+import "../styles/NavItems.css";
 
 // list items
 const NavItems = () => {
