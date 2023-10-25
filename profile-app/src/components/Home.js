@@ -1,5 +1,5 @@
 // imports
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/App.css";
 import "../styles/Home.css";
@@ -18,14 +18,13 @@ const Home = () => {
           </p>
 
           <p className="front-text" id="text-2">
-            I am a front-end developer and
-            photographer.
+            I am a front-end developer and photographer.
           </p>
 
           <p className="front-text" id="text-3">
             I'd like to show you a few things...
           </p>
-    
+
           <p className="front-text" id="text-4">
             C'mon!
           </p>

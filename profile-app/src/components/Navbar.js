@@ -1,26 +1,18 @@
 // imports
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 // must import pertinent css
 import "../styles/Navbar.css";
 import img from "../main-pictures/living-waters-1.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import NavItems from "../components/NavItems";
-import Overlay from "./Overlay";
+// import Overlay from "./Overlay";
 
 // functions
 const Navbar = () => {
   // state hooks
   const [menuOpen, setMenuOpen] = useState(true); // menu functionality
   const [cancelOn, setCancelOn] = useState(false); // ex functionality
-  const [toggle, setToggle] = useState(false);
-
-  // Effect
-  // useEffect() => {
-  //   // set up submenu
-  //   const subMenuSetUp = () => {
-
-  //   }
-  // }
+  // const [toggle, setToggle] = useState(false);
 
   // handles
   const handleMenuFunction = () => {

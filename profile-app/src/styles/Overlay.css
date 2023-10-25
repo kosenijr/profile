@@ -1,3 +1,6 @@
 .overlay {
-    
+  color: black;
+  background-color: green;
+  height: 10em;
+  width: 10em;
 }

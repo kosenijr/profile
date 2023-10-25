@@ -16,18 +16,18 @@ function App() {
   return (
     <div>
       <div className="App">
-        <Overlay>
-          <Router>
-            <Navbar />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<PageNotFound />} />
-            </Routes>
-          </Router>
-        </Overlay>
+        {/* <Overlay> */}
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </Router>
+        {/* </Overlay> */}
       </div>
     </div>
   );
