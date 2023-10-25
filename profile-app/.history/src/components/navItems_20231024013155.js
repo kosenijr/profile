@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 import "../styles/NavItems.css";
 
-// NavItems
+// list items
 const NavItems = () => {
   // set up hooks
   const [toogle, setToggle] = useState(false);
-
+  
   return (
     <div className="nav-items" style={{}}>
       <a href="/">Home</a>

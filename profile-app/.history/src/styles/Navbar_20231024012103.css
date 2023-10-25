@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+/* working on the Navbar itself through a self-entitled class name */
+.Navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 5em; */
+  align-items: center;
+  background-color: White;
+  opacity: 0.8;
+}
+
+.image-div {
+  padding: 0;
+}
+
+#living-water {
+  width: 5vw;
+  display: block;
+}
+
+.menu-exit-options {
+  display: none;
+}
+
+/* media queries */
+
+@media (min-width: 0px) and (max-width: 200px) {
+  .Navbar {
+    display: none;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+  .Navbar {
+    justify-content: center;
+  }
+
+  .Navbar > .nav-items > a {
+    display: none;
+  }
+
+  .image-div {
+    padding: 0;
+  }
+
+  #living-water {
+    width: 12vh;
+  }
+
+  .nav-items {
+    padding: 0;
+  }
+
+  .menu-exit-options {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .exit {
+    display: none;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 1340px) {
+
+  .Navbar > .nav-items > a {
+    display: none;
+  }
+
+  .image-div {
+    padding: 0;
+  }
+
+  #living-water {
+    width: 12vh;
+  }
+
+  .nav-items {
+    padding: 0;
+  }
+
+  .menu-exit-options {
+    display: block;
+  }
+
+  .menu {
+    height: 1em;
+    font-size: 2em;
+    align-items: right;
+    display: none;
+
+  }
+
+  .exit {
+    height: 1em;
+    font-size: 2em;
+    display: none;
+
+  }
+}
+
+/*
+- work on transition of menu to cancel
+- set up menu and menu cancellation (use opacity)
+- remove menu and cancel icons after the width of 1340px
+ */

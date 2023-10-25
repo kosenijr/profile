@@ -1,14 +1,14 @@
 // imports
-import React, { useState } from "react";
-import "../styles/NavItems.css";
+import React, {useState} from 'react'
+import "../styles/NavItems.css"
 
-// NavItems
+// set up hooks
+const [toogle, setToggle] = useState(false)
+
+// list items
 const NavItems = () => {
-  // set up hooks
-  const [toogle, setToggle] = useState(false);
-
   return (
-    <div className="nav-items" style={{}}>
+    <div className="nav-items">
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="/portfolio">Portfolio</a>
