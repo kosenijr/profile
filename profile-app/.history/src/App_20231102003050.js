@@ -32,8 +32,8 @@ function App() {
   };
 
   const handleClick = () => {
-    console.log("This page was clicked!");
-  };
+    console.log("This page was clicked!")
+  }
 
   return (
     <div>
@@ -58,9 +58,9 @@ function App() {
         className="overlay"
         handleMenuFunction={handleMenuFunction}
         handleExFunction={handleExFunction}
-        handleClick={handleClick}
         menuOpen={menuOpen}
         cancelOn={cancelOn}
+        handleClick={handleClick}
       />
     </div>
   );

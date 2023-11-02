@@ -58,9 +58,9 @@ function App() {
         className="overlay"
         handleMenuFunction={handleMenuFunction}
         handleExFunction={handleExFunction}
-        handleClick={handleClick}
         menuOpen={menuOpen}
         cancelOn={cancelOn}
+        handleClick={handleClick}
       />
     </div>
   );

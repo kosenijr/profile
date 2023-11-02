@@ -53,14 +53,14 @@ function App() {
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Router>
-      </div>
+      </div onClick={handleClick}>
       <Overlay
         className="overlay"
         handleMenuFunction={handleMenuFunction}
         handleExFunction={handleExFunction}
-        handleClick={handleClick}
         menuOpen={menuOpen}
         cancelOn={cancelOn}
+        
       />
     </div>
   );

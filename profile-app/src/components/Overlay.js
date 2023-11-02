@@ -2,13 +2,26 @@
 import React from "react";
 import "../styles/Overlay.css";
 
-// hooks
-
 // component
-const Overlay = ({menuOpen, handleMenuFunction, cancelOn, handleExFunction}) => {
+const Overlay = ({
+  menuOpen,
+  cancelOn,
+  handleMenuFunction,
+  handleExFunction,
+  handleClick
+}) => {
+  // hooks
 
   return (
-    <div className="overlay" menuOpen={menuOpen} cancelOn={cancelOn} handleMenuFunction={handleMenuFunction} handleExFunction={handleExFunction} style={{visibility: menuOpen ? "hidden" : "visible"}}>
+    <div
+      className="overlay"
+      menuOpen={menuOpen}
+      cancelOn={cancelOn}
+      handleMenuFunction={handleMenuFunction}
+      handleExFunction={handleExFunction}
+      handleClick={handleClick}
+      style={{ visibility: menuOpen ? "hidden" : "visible" }}
+    >
       <ul>
         <li>
           <a href="/">Home</a>

@@ -1,5 +1,5 @@
 // imports
-import React from "react";
+import React, { useState } from "react";
 // must import pertinent css
 import "../styles/Navbar.css";
 import img from "../main-pictures/living-waters-1.png";
