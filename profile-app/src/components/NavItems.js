@@ -4,10 +4,7 @@ import "../styles/NavItems.css";
 
 // NavItems
 const NavItems = () => {
-<<<<<<< HEAD
   // set up hooks
-=======
->>>>>>> db3b06a24f66339868c6fbed2e4b58400b7f21c7
 
   return (
     <div className="nav-items" style={{}}>

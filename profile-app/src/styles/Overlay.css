@@ -8,16 +8,19 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(31, 145, 145, 0.5);
+    background-color: rgba(13, 17, 17, 0.7);
     cursor: pointer;
-  }
-
-  a:hover {
-    color: white;
+    text-align: center;
+    font-size: 3em;
   }
 
   a {
     margin: 1em;
-    color: black;
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(95, 188, 239);
   }
 }

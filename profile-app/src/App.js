@@ -32,7 +32,9 @@ function App() {
   };
 
   const handleClick = () => {
-    console.log("This page was clicked!");
+    console.log("Overlay page was clicked!");
+    setMenuOpen(false);
+    setCancelOn(true);
   };
 
   return (
