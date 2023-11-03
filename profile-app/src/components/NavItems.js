@@ -5,7 +5,6 @@ import "../styles/NavItems.css";
 // NavItems
 const NavItems = () => {
   // set up hooks
-  const [toogle, setToggle] = useState(false);
 
   return (
     <div className="nav-items" style={{}}>
