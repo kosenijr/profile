@@ -8,7 +8,6 @@ const Overlay = ({
   cancelOn,
   handleMenuFunction,
   handleExFunction,
-  handleClick
 }) => {
   // hooks
 
@@ -18,8 +17,7 @@ const Overlay = ({
       menuOpen={menuOpen}
       cancelOn={cancelOn}
       handleMenuFunction={handleMenuFunction}
-      handleExFunction={handleExFunction}
-      handleClick={handleClick}
+      onClick={handleExFunction}
       style={{ visibility: menuOpen ? "hidden" : "visible" }}
     >
       <ul>

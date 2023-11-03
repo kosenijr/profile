@@ -16,6 +16,7 @@ function App() {
   // hooks
   const [menuOpen, setMenuOpen] = useState(true); // menu functionality
   const [cancelOn, setCancelOn] = useState(false); // ex functionality
+  // const [closeOverlay, setCloseOverlay] = useState(false);
 
   // handles
   const handleMenuFunction = () => {
@@ -54,6 +55,7 @@ function App() {
         className="overlay"
         handleMenuFunction={handleMenuFunction}
         handleExFunction={handleExFunction}
+        handleClose={handleClose}
         menuOpen={menuOpen}
         cancelOn={cancelOn}
       />

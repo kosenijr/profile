@@ -16,6 +16,7 @@ function App() {
   // hooks
   const [menuOpen, setMenuOpen] = useState(true); // menu functionality
   const [cancelOn, setCancelOn] = useState(false); // ex functionality
+  // const [closeOverlay, setCloseOverlay] = useState(false);
 
   // handles
   const handleMenuFunction = () => {
@@ -26,7 +27,14 @@ function App() {
 
   const handleExFunction = () => {
     console.log("Ex is clicked!");
-    console.log("Overlay is off!")
+    console.log("Ex Function works too!")
+    setMenuOpen(true);
+    setCancelOn(false);
+  };
+
+  const handleClose = () => {
+    console.log("Overlay page was clicked!");
+    // setCloseOverlay(true);
     setMenuOpen(true);
     setCancelOn(false);
   };
@@ -54,6 +62,7 @@ function App() {
         className="overlay"
         handleMenuFunction={handleMenuFunction}
         handleExFunction={handleExFunction}
+        handleClose={handleClose}
         menuOpen={menuOpen}
         cancelOn={cancelOn}
       />
