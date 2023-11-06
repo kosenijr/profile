@@ -16,10 +16,10 @@
 
 .about-me-summary {
 width: 100%;
-line-height: 2;
-font-size: 1em;
+line-height: 1.5;
+font-size: 1.2em;
 padding: 0 10%;
-text-align: left;
+text-align: justify;
 font-weight: 700;
 }
 
@@ -36,38 +36,18 @@ float: right;
 @media (min-width: 0px) and (max-width: 830px) {
 .main-container {
   font-size: 0.7rem;
-  /* overflow: scroll; */
+  overflow: scroll;
   /* scrollbar-color: black;
   scrollbar-width: thin; */
-}
-
-.desc-sub-container {
-  height: 75vh;
-  overflow: scroll;
 }
 
 .about-me-summary {
   text-align: left;
   line-height: 2;
+  overflow: scroll;
 }
 
 .arrows-sub-container{
   display: none;
 }
-}
-
-@media (min-width: 831px) and (max-width: 1340px) {
-.main-container {
-  font-size: 0.8em;
-}
-
-.about-me-summary {
-  line-height: 2
-
-}
-
-.arrows-sub-container{
-  display: none;
-}
-
 }

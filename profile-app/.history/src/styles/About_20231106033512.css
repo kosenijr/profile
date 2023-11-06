@@ -10,16 +10,16 @@
 
 .about-me-title {
   font-family: "Monserrat";
-  text-align: center;
+  text-align: left;
   margin-bottom: 5vh;
 }
 
 .about-me-summary {
 width: 100%;
-line-height: 2;
-font-size: 1em;
+line-height: 1.5;
+font-size: 1.2em;
 padding: 0 10%;
-text-align: left;
+text-align: justify;
 font-weight: 700;
 }
 
@@ -54,20 +54,4 @@ float: right;
 .arrows-sub-container{
   display: none;
 }
-}
-
-@media (min-width: 831px) and (max-width: 1340px) {
-.main-container {
-  font-size: 0.8em;
-}
-
-.about-me-summary {
-  line-height: 2
-
-}
-
-.arrows-sub-container{
-  display: none;
-}
-
 }
