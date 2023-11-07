@@ -49,6 +49,9 @@ float: right;
   text-align: left;
   line-height: 2;
   margin-left: 25%;
+  scrollbar-width: auto;
+  scrollbar-color: blue;
+
 }
 
 .arrows-sub-container{

@@ -36,6 +36,9 @@ float: right;
 @media (min-width: 0px) and (max-width: 830px) {
 .main-container {
   font-size: 0.7rem;
+  /* overflow: scroll; */
+  /* scrollbar-color: black;
+  scrollbar-width: thin; */
 }
 
 .desc-sub-container {
@@ -44,11 +47,10 @@ float: right;
 }
 
 .about-me-summary {
-  display: flex;
   flex-direction: column;
   text-align: left;
   line-height: 2;
-  margin-left: 25%;
+
 }
 
 .arrows-sub-container{
@@ -58,7 +60,7 @@ float: right;
 
 @media (min-width: 831px) and (max-width: 1340px) {
 .main-container {
-
+  
   font-size: 0.8em;
 }
 
