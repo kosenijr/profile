@@ -67,3 +67,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 450px) {
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

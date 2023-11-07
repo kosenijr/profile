@@ -34,14 +34,14 @@ li {
   height: 30%;
   /* border: dotted 3px black; */
   float: left;
-  text-align: right;
+  text-align: center;
 }
 
 .contact-form {
   width: 45%;
   height: 30%;
   float: right;
-  text-align: justify;
+  text-align: left;
 }
 
 .contact-form ul {
@@ -107,10 +107,25 @@ form > ul > button {
   padding-top: 1em;
 }
 
-.block  {
+.block {
   display: block;
 }
 
-.none  {
+.none {
   display: none;
 }
+
+@media (max-width: 910px) {
+  .direct-contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+  }
+
+  .contact-links,
+  .contact-form {
+    text-align: left;
+  }
+}
+
+/* need to establish scroll system for around 850px */
