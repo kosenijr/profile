@@ -12,6 +12,11 @@
   position: relative;
 }
 
+.desc-sub-container {
+  width: 100%;
+  right: 0;
+}
+
 .contact-title {
   color: white;
   font-family: "Monserrat";
