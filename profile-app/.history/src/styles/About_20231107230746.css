@@ -34,6 +34,10 @@
 }
 
 @media (min-width: 0px) and (max-width: 830px) {
+  .main-container {
+    /* font-size: 0.7rem; */
+  }
+
   .desc-sub-container {
     height: 75vh;
     overflow-y: scroll;
@@ -54,6 +58,10 @@
 }
 
 @media (min-width: 831px) and (max-width: 1340px) {
+  .main-container {
+    /* font-size: 0.8em; */
+  }
+
   .about-me-summary {
     line-height: 2;
   }

@@ -30,17 +30,12 @@ li {
 }
 
 .contact-links {
-  margin-left: 20em;
+  /* width: 45%; */
   width: 30%;
   height: 30%;
-  float: left;
   /* border: dotted 3px black; */
-  /* text-align: center; */
-}
-
-.float-links {
   float: left;
-  margin-right: 2em;
+  /* text-align: center; */
 }
 
 .contact-form {

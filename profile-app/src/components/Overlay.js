@@ -5,8 +5,6 @@ import "../styles/Overlay.css";
 // component
 const Overlay = ({
   menuOpen,
-  cancelOn,
-  handleMenuFunction,
   handleExFunction,
 }) => {
   // hooks
@@ -14,9 +12,6 @@ const Overlay = ({
   return (
     <div
       className="overlay"
-      menuOpen={menuOpen}
-      cancelOn={cancelOn}
-      handleMenuFunction={handleMenuFunction}
       onClick={handleExFunction}
       style={{ visibility: menuOpen ? "hidden" : "visible" }}
     >
