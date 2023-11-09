@@ -8,6 +8,15 @@
   height: 100vh;
 }
 
+.body-main {
+  position: relative;
+}
+
+.desc-sub-container {
+  width: 100%;
+  align-items: center;
+}
+
 .contact-title {
   color: white;
   font-family: "Monserrat";

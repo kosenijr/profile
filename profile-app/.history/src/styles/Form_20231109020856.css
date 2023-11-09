@@ -72,7 +72,6 @@ input::placeholder {
   color: #00ffff;
   font-weight: 700;
   font-size: 1em;
-  text-align: center;
 }
 
 input:focus {
@@ -139,17 +138,3 @@ form > ul > button {
 }
 
 /* need to establish scroll system for around 850px */
-
-/* full centered max-width: 910px */
-@media (max-width: 940px) {
-
-}
-
-
-/* contact links vertically aligned by  max-width: 460px*/
-@media (max-width: 460px) {
-  .contact-links, contact-form{
-    display: flex;
-    flex-direction: column;
-  }
-}

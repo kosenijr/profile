@@ -102,8 +102,8 @@ const Form = () => {
       </div>
 
       <div className="contact-form">
+        <div className="subtitle subtitle-2">Or leave a message below:</div>
         <form onSubmit={handleSubmit}>
-          <div className="subtitle subtitle-2">Or leave a message below:</div>
           <ul>
             Hello,
             <br />I am{" "}

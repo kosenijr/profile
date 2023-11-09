@@ -114,7 +114,7 @@ const Form = () => {
                 className="contact-name-input"
                 onChange={handleNameChange}
                 value={name}
-                placeholder="(Name)"
+                placeholder="NAME."
               />
             </div>
             <br />
@@ -126,7 +126,7 @@ const Form = () => {
                 className="contact-mail-input"
                 onChange={handleContactChange}
                 value={contact}
-                placeholder="(Email Address)"
+                placeholder="your email address"
               />
             </div>
             <br />
@@ -138,7 +138,7 @@ const Form = () => {
                 className="contact-message-input"
                 onChange={handleMessageChange}
                 value={message}
-                placeholder="(Message)"
+                placeholder="your message"
               />
             </div>
             <br />

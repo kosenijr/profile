@@ -6,6 +6,11 @@
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
+  text-align: center;
+}
+
+.body-main {
+  position: relative;
 }
 
 .contact-title {

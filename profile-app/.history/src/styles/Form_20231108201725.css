@@ -3,7 +3,7 @@
   font-weight: 700;
   font-size: 1.2em;
   margin-top: 1vh;
-
+  
   margin: 0 auto;
 }
 
@@ -37,12 +37,12 @@ li {
   /* float: left; */
   /* border: dotted 3px black; */
   /* text-align: center; */
-  text-align: center;
+  align-items: center;
 }
 
 .float-links {
-  margin-right: 1em;
-  display: inline-block;
+  float: left;
+  margin-right: 2em;
 }
 
 .contact-form {
@@ -57,7 +57,6 @@ li {
 }
 
 .input-wrapper {
-  border: #00ffff solid 0.025em;
   display: inline-block;
   position: relative;
   vertical-align: top;
@@ -72,7 +71,6 @@ input::placeholder {
   color: #00ffff;
   font-weight: 700;
   font-size: 1em;
-  text-align: center;
 }
 
 input:focus {
@@ -139,17 +137,3 @@ form > ul > button {
 }
 
 /* need to establish scroll system for around 850px */
-
-/* full centered max-width: 910px */
-@media (max-width: 940px) {
-
-}
-
-
-/* contact links vertically aligned by  max-width: 460px*/
-@media (max-width: 460px) {
-  .contact-links, contact-form{
-    display: flex;
-    flex-direction: column;
-  }
-}

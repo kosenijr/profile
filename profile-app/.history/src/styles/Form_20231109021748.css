@@ -148,7 +148,7 @@ form > ul > button {
 
 /* contact links vertically aligned by  max-width: 460px*/
 @media (max-width: 460px) {
-  .contact-links, contact-form{
+  .contact-links {
     display: flex;
     flex-direction: column;
   }
