@@ -61,11 +61,9 @@ const Form = () => {
   return (
     <div className="direct-contact">
       <div className="contact-links">
-        <div className="subtitle subtitle-1">
-          Connect with me by email or social media:
-        </div>
+        <div className="subtitle subtitle-1">Connect with me:</div>
         <div className="float-links float-link-1">
-          <div className="subtitle">Email</div>
+          {/* <div className="subtitle">Email</div> */}
           <a
             className="contact-info"
             target="_blank"
@@ -77,7 +75,7 @@ const Form = () => {
         </div>
 
         <div className="float-links float-link-2">
-          <div className="subtitle">GitHub</div>
+          {/* <div className="subtitle">GitHub</div> */}
           <a
             className="contact-info"
             target="_blank"
@@ -89,7 +87,7 @@ const Form = () => {
         </div>
 
         <div className="float-links float-link-3">
-          <div className="subtitle">Linkedin</div>
+          {/* <div className="subtitle">Linkedin</div> */}
           <a
             className="contact-info"
             target="_blank"

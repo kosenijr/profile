@@ -34,14 +34,11 @@ li {
 .contact-links {
   width: 100%;
   height: 30%;
-  /* float: left; */
-  /* border: dotted 3px black; */
-  /* text-align: center; */
   text-align: center;
 }
 
 .float-links {
-  margin-right: 1em;
+  /* margin: 0 0.5em; */
   display: inline-block;
 }
 
@@ -129,26 +126,27 @@ form > ul > button {
   .direct-contact {
     display: flex;
     flex-direction: column;
-    margin-left: 40%;
+    /* margin-left: 40%; */
   }
 
   .contact-links,
   .contact-form {
-    text-align: left;
   }
 }
 
 /* need to establish scroll system for around 850px */
 
 /* full centered max-width: 910px */
-@media (max-width: 940px) {
-
+@media (min-width: 1340px) {
+  .float-links {
+    margin: 0 1em;
+  }
 }
-
 
 /* contact links vertically aligned by  max-width: 460px*/
 @media (max-width: 460px) {
-  .contact-links, contact-form{
+  .contact-links,
+  contact-form {
     display: flex;
     flex-direction: column;
   }
