@@ -126,11 +126,6 @@ form > ul > button {
   .direct-contact {
     display: flex;
     flex-direction: column;
-    /* margin-left: 40%; */
-  }
-
-  .contact-links,
-  .contact-form {
   }
 }
 
